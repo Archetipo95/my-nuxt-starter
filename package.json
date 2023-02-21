@@ -19,7 +19,7 @@
     "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.2",
     "sass": "^1.58.3",
-    "unplugin-auto-import": "^0.14.3",
+    "unplugin-auto-import": "^0.14.4",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
   "name": "my-nuxt-starter",
