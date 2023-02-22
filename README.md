@@ -9,8 +9,9 @@ Description
 
 1) Nuxt 3
 2) TailwindCSS
-3) VueUse
+3) Nuxt VueUse
 4) Storybook 6
+5) Nuxt lodash
 
 ## Setup
 
