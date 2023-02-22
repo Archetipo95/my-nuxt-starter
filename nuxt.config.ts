@@ -1,13 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Martin's Advent Of Vue 2022",
-      link: [
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
-        },
-      ],
+      title: "Martin's Nuxt Starter",
     },
   },
   css: ["@/assets/scss/main.scss"],
