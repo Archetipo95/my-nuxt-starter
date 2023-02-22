@@ -4,14 +4,20 @@ export default defineNuxtConfig({
       title: "Martin's Nuxt Starter",
     },
   },
+  modules: [
+    "vite-plugin-vue-type-imports/nuxt",
+    "@nuxtjs/tailwindcss",
+    "@vueuse/nuxt",
+    "nuxt-lodash",
+  ],
   css: ["@/assets/scss/main.scss"],
   tailwindcss: {
     cssPath: "@/assets/scss/main.scss",
     viewer: false,
   },
-  modules: [
-    "vite-plugin-vue-type-imports/nuxt",
-    "@nuxtjs/tailwindcss",
-    "@vueuse/nuxt",
-  ],
+  // https://nuxt.com/modules/lodash
+  lodash: {
+    prefix: "_",
+    upperAfterPrefix: false,
+  },
 });
