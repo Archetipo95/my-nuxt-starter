@@ -13,6 +13,10 @@ Description
 4) Storybook 6
 5) Nuxt lodash
 
+## To be added
+
+1) Icons support
+
 ## Setup
 
 Make sure to install the dependencies:
