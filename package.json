@@ -20,7 +20,7 @@
     "nuxt": "^3.2.2",
     "nuxt-lodash": "^2.4.1",
     "sass": "^1.58.3",
-    "unplugin-auto-import": "^0.14.4",
+    "unplugin-auto-import": "^0.15.0",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
   "name": "my-nuxt-starter",
