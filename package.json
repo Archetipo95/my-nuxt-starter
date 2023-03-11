@@ -1,28 +1,33 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
-    "postinstall": "nuxt prepare",
     "preview": "nuxt preview",
-    "storybook-build": "build-storybook",
-    "storybook-dev": "start-storybook -p 6006",
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "storybook-build": "storybook build",
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
-    "@storybook/addon-essentials": "^6.5.16",
-    "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/builder-vite": "^0.4.2",
-    "@storybook/vue3": "^6.5.16",
+    "@storybook/addon-essentials": "^7.0.0-rc.0",
+    "@storybook/addon-mdx-gfm": "^7.0.0-rc.0",
+    "@storybook/addon-postcss": "^3.0.0-alpha.1",
+    "@storybook/vue3": "^7.0.0-rc.0",
+    "@storybook/vue3-vite": "^7.0.0-rc.0",
     "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.3",
     "nuxt-lodash": "^2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.58.3",
+    "storybook": "^7.0.0-rc.0",
     "unplugin-auto-import": "^0.15.1",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
   "name": "my-nuxt-starter",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "peerDependencies": {}
 }

@@ -3,12 +3,15 @@ const { mergeConfig } = require("vite");
 const AutoImport = require("unplugin-auto-import/vite");
 
 const stories = [
-  "../stories/**/*.stories.mdx",
+  "../stories/**/*.mdx",
   "../stories/**/*.stories.@(js|jsx|ts|tsx)",
   "../components/**/*.stories.@(js|jsx|ts|tsx)",
 ];
 
-const framework = "@storybook/vue3";
+const framework = {
+  name: "@storybook/vue3-vite",
+  options: {},
+};
 
 const addons = [
   "@storybook/addon-essentials",
@@ -45,7 +48,9 @@ module.exports = {
     });
   },
   core: {
-    builder: "@storybook/builder-vite",
     disableTelemetry: true,
+  },
+  docs: {
+    autodocs: true,
   },
 };

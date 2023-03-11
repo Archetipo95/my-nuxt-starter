@@ -10,7 +10,7 @@ Description
 1) Nuxt 3
 2) TailwindCSS
 3) Nuxt VueUse
-4) Storybook 6
+4) Storybook 7
 5) Nuxt lodash
 
 ## To be added
