@@ -19,7 +19,7 @@
     "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.3",
     "nuxt-lodash": "^2.4.1",
-    "sass": "^1.58.3",
+    "sass": "^1.59.2",
     "unplugin-auto-import": "^0.15.1",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
