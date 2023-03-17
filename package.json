@@ -11,15 +11,15 @@
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@nuxtjs/tailwindcss": "^6.6.0",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-vite": "^0.4.2",
     "@storybook/vue3": "^6.5.16",
     "@vueuse/nuxt": "^9.13.0",
-    "nuxt": "^3.2.3",
+    "nuxt": "^3.3.1",
     "nuxt-lodash": "^2.4.1",
-    "sass": "^1.58.3",
+    "sass": "^1.59.3",
     "unplugin-auto-import": "^0.15.1",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
