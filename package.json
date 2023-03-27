@@ -6,8 +6,8 @@
     "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
     "preview": "nuxt preview",
+    "storybook": "start-storybook -p 6006",
     "storybook-build": "build-storybook",
-    "storybook-dev": "start-storybook -p 6006",
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
