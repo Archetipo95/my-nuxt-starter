@@ -17,10 +17,10 @@
     "@storybook/builder-vite": "^0.4.2",
     "@storybook/vue3": "^6.5.16",
     "@vueuse/nuxt": "^9.13.0",
-    "nuxt": "^3.3.1",
+    "nuxt": "^3.3.2",
     "nuxt-lodash": "^2.4.1",
     "sass": "^1.60.0",
-    "unplugin-auto-import": "^0.15.1",
+    "unplugin-auto-import": "^0.15.2",
     "vite-plugin-vue-type-imports": "^0.2.4"
   },
   "name": "my-nuxt-starter",
