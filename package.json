@@ -11,7 +11,7 @@
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.6.4",
+    "@nuxtjs/tailwindcss": "^6.6.5",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-vite": "^0.4.2",
