@@ -2,8 +2,8 @@
 
 Description
 
-- Site: url
-- Storybook: url
+- Site: https://my-nuxt-experiments.netlify.app/
+- Storybook: https://my-nuxt-starter-storybook.netlify.app
 
 ## Features
 
