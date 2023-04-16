@@ -1,4 +1,3 @@
-// import type { Meta } from '@storybook/vue3';
 import type { Meta, StoryObj } from "@storybook/vue3";
 import TheFooter from "./TheFooter.vue";
 
