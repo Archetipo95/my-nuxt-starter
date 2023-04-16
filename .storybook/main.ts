@@ -2,31 +2,21 @@ const VueTypeImports = require("vite-plugin-vue-type-imports");
 const { mergeConfig } = require("vite");
 const AutoImport = require("unplugin-auto-import/vite");
 
-const stories = [
-  "../stories/**/*.stories.mdx",
-  "../stories/**/*.stories.@(js|jsx|ts|tsx)",
-  "../components/**/*.stories.@(js|jsx|ts|tsx)",
-];
+const stories = ["../components/**/*.stories.@(js|jsx|ts|tsx)"];
 
-const framework = "@storybook/vue3";
+const framework = {
+  name: "@storybook/vue3-vite",
+};
 
 const addons = [
+  "@storybook/addon-links",
   "@storybook/addon-essentials",
-  {
-    name: "@storybook/addon-postcss",
-    options: {
-      cssLoaderOptions: {
-        importLoaders: 1,
-      },
-      postcssLoaderOptions: {
-        implementation: require("postcss"),
-      },
-    },
-  },
+  "@storybook/addon-interactions",
+  "@storybook/addon-mdx-gfm",
+  "@storybook/addon-styling",
 ];
 
 const imports = ["vue", "@vueuse/core"];
-
 module.exports = {
   stories,
   framework,
@@ -45,7 +35,9 @@ module.exports = {
     });
   },
   core: {
-    builder: "@storybook/builder-vite",
     disableTelemetry: true,
+  },
+  docs: {
+    autodocs: true,
   },
 };
