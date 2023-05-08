@@ -19,7 +19,7 @@
     "@storybook/addon-styling": "^1.0.5",
     "@storybook/blocks": "^7.0.7",
     "@storybook/testing-library": "^0.1.0",
-    "@storybook/vue3": "^7.0.7",
+    "@storybook/vue3": "^7.0.9",
     "@storybook/vue3-vite": "^7.0.7",
     "@vueuse/nuxt": "^10.1.0",
     "nuxt": "^3.4.2",
