@@ -30,8 +30,9 @@ pnpm install
 
 ### Start development
 
+(Served on http://localhost:3000)
+
 ```bash
-// served on http://localhost:3000
 pnpm dev
 ```
 
@@ -45,8 +46,9 @@ pnpm build
 
 ### Start development
 
+(Served on http://localhost:6006)
+
 ```bash
-// Served on http://localhost:6006
 pnpm storybook
 ```
 
