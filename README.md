@@ -23,8 +23,7 @@ Description
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
+pnpm install
 ```
 
 ## Development Server
@@ -32,7 +31,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## Production
@@ -40,5 +39,29 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+pnpm build
+```
+
+## Storybook Development Server
+
+Start the development server on http://localhost:6006
+
+```bash
+pnpm storybook
+```
+
+## Storybook Build
+
+Build the application for production:
+
+```bash
+pnpm storybook-build
+```
+
+## Storybook Build Serve
+
+Build the application for production:
+
+```bash
+pnpm storybook-serve
 ```
