@@ -1,21 +1,21 @@
-import "../assets/scss/main.scss";
+import '../assets/scss/main.scss'
 
 export const parameters = {
   backgrounds: {
-    default: "Figma Light",
+    default: 'Dark',
     values: [
       {
-        name: "Figma Light",
-        value: "#E1DFDF",
+        name: 'Figma Light',
+        value: '#E1DFDF',
       },
       {
-        name: "Light",
-        value: "#FFF",
+        name: 'Light',
+        value: '#FFF',
       },
       {
-        name: "Dark",
-        value: "#333233",
+        name: 'Dark',
+        value: '#333233',
       },
     ],
   },
-};
+}

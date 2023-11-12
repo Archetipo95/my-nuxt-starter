@@ -24,6 +24,7 @@
     "@storybook/vue3": "^7.5.3",
     "@types/node": "^20.9.0",
     "@vueuse/nuxt": "^10.6.0",
+    "nuxt-headlessui": "^1.1.4",
     "nuxt-lodash": "^2.5.3",
     "nuxt": "^3.8.1",
     "sass": "^1.69.5",

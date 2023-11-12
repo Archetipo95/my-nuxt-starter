@@ -1,11 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  This is the home page
+  <Disclosure title="Is team pricing available?" text="Yes! You can purchase a license that you can share with your entire team." />
 </template>
-
-<style scoped>
-
-</style>

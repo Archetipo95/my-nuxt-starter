@@ -4,7 +4,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import { join } from 'path'
 import { mergeConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
-//import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
+import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
 
 const config: StorybookConfig = {
   stories: ['../components/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
@@ -31,9 +31,9 @@ const config: StorybookConfig = {
           deep: true,
           directoryAsNamespace: false,
           resolvers: [
-            // HeadlessUiResolver({
-            //   prefix: 'Headless',
-            // }),
+            HeadlessUiResolver({
+              prefix: 'Headless',
+            }),
             // @ts-ignore
             (componentName: string) => {
               if (componentName === 'NuxtLink') {

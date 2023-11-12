@@ -1,18 +1,18 @@
-import type { Meta, StoryObj } from "@storybook/vue3";
-import TheHeader from "./TheHeader.vue";
+import type { Meta, StoryObj } from '@storybook/vue3'
+import TheHeader from './TheHeader.vue'
 
 const meta: Meta<typeof TheHeader> = {
-  title: "TheHeader",
+  title: 'Components/TheHeader',
   component: TheHeader,
-} satisfies Meta<typeof TheHeader>;
+} satisfies Meta<typeof TheHeader>
 
-export default meta;
+export default meta
 
-type Story = StoryObj<typeof TheHeader>;
+type Story = StoryObj<typeof TheHeader>
 
 export const Primary: Story = {
   render: () => ({
     components: { TheHeader },
-    template: "<TheHeader />",
+    template: '<TheHeader />',
   }),
-};
+}

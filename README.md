@@ -7,15 +7,16 @@ Description
 
 ## Features
 
-1) Nuxt 3
-2) TailwindCSS
-3) Nuxt VueUse
-4) Storybook 7
-5) Nuxt lodash
+1. Nuxt 3
+2. TailwindCSS (@nuxtjs/tailwindcss)
+3. VueUse (@vueuse/nuxt)
+4. Storybook 7
+5. Lodash (nuxt-lodash)
+6. HeadlessUI (nuxt-headlessui)
 
 ## To be added
 
-1) Icons support
+1. Icons support
 
 ## Setup
 
