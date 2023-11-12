@@ -7,3 +7,5 @@ node_modules
 .env
 dist
 storybook-static
+auto-imports.d.ts
+components.d.ts
