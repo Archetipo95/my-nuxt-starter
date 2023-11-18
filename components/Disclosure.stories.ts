@@ -1,19 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
 import Disclosure from './Disclosure.vue'
+import { within, userEvent, expect, fn } from '@storybook/test'
 
-const meta: Meta<typeof Disclosure> = {
+const meta = {
   title: 'Components/Disclosure',
   component: Disclosure,
-  parameters: {
-    // design: [
-    //   {
-    //     name: 'Desktop',
-    //     type: 'figma',
-    //     url: 'https://www.figma.com/file/SOMEFILE',
-    //   },
-    // ],
-  },
-}
+} satisfies Meta<typeof Disclosure>
 
 export default meta
 type Story = StoryObj<typeof Disclosure>
@@ -29,5 +21,10 @@ export const Default: Story = {
   args: {
     title: 'Disclosure',
     text: 'This is a disclosure',
+  },
+  play: async ({ args, canvasElement }) => {
+    const canvas = within(canvasElement)
+
+    await userEvent.click(canvas.getByRole('button'))
   },
 }
