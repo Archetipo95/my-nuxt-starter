@@ -6,71 +6,71 @@ settings:
 
 devDependencies:
   '@nuxtjs/tailwindcss':
-    specifier: ^6.9.4
-    version: 6.9.4(webpack@5.89.0)
+    specifier: 6.9.5
+    version: 6.9.5(webpack@5.89.0)
   '@storybook/addon-a11y':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-designs':
-    specifier: ^7.0.5
+    specifier: 7.0.5
     version: 7.0.5(@storybook/addon-docs@7.5.3)(@storybook/addons@7.5.3)(@storybook/components@7.5.3)(@storybook/manager-api@7.5.3)(@storybook/preview-api@7.5.3)(@storybook/theming@7.5.3)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-essentials':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-links':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-themes':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
   '@storybook/builder-vite':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(typescript@5.2.2)(vite@4.5.0)
   '@storybook/testing-library':
-    specifier: ^0.2.2
+    specifier: 0.2.2
     version: 0.2.2
   '@storybook/vue3':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(@vue/compiler-core@3.3.8)(vue@3.3.8)
   '@storybook/vue3-vite':
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3(@vue/compiler-core@3.3.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.5.0)(vue@3.3.8)
   '@types/node':
-    specifier: ^20.9.0
+    specifier: 20.9.0
     version: 20.9.0
   '@vueuse/nuxt':
-    specifier: ^10.6.0
-    version: 10.6.0(nuxt@3.8.1)(vue@3.3.8)
+    specifier: 10.6.1
+    version: 10.6.1(nuxt@3.8.1)(vue@3.3.8)
   nuxt:
-    specifier: ^3.8.1
+    specifier: 3.8.1
     version: 3.8.1(@types/node@20.9.0)(sass@1.69.5)(typescript@5.2.2)(vite@4.5.0)
   nuxt-headlessui:
-    specifier: ^1.1.4
+    specifier: 1.1.4
     version: 1.1.4(vue@3.3.8)
   nuxt-lodash:
-    specifier: ^2.5.3
+    specifier: 2.5.3
     version: 2.5.3
   sass:
-    specifier: ^1.69.5
+    specifier: 1.69.5
     version: 1.69.5
   storybook:
-    specifier: ^7.5.3
+    specifier: 7.5.3
     version: 7.5.3
   storybook-addon-themes:
-    specifier: ^6.1.0
+    specifier: 6.1.0
     version: 6.1.0(react-dom@18.2.0)(react@18.2.0)(vue@3.3.8)
   typescript:
-    specifier: ^5.2.2
+    specifier: 5.2.2
     version: 5.2.2
   unplugin-auto-import:
     specifier: 0.16.7
     version: 0.16.7
   unplugin-icons:
-    specifier: 0.17.3
-    version: 0.17.3
+    specifier: 0.17.4
+    version: 0.17.4
   unplugin-vue-components:
     specifier: 0.25.2
     version: 0.25.2(vue@3.3.8)
@@ -2538,8 +2538,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxtjs/tailwindcss@6.9.4(webpack@5.89.0):
-    resolution: {integrity: sha512-T3B3P7RgJ/WTW3plHziLWqWbMzCWctUHpjqhW1WCXB/U3FOQxGH5dG4uEOmQkA6Gj4cbTNStIU/cRxpZhbBMhg==}
+  /@nuxtjs/tailwindcss@6.9.5(webpack@5.89.0):
+    resolution: {integrity: sha512-Q1jMY06KdK7f6IAL25HFWK0ZhTNaxyl/J0fhX3k0kjKojeflU6AbJTTKeVn9Dhqqt71y1thZqemuZNeJha+RBA==}
     dependencies:
       '@nuxt/kit': 3.8.1
       '@nuxt/postcss8': 1.1.3(webpack@5.89.0)
@@ -5073,30 +5073,30 @@ packages:
     resolution: {integrity: sha512-8PGwybFwM4x8pcfgqEQFy70NaQxASvOC5DJwLQfpArw1UDfUXrJkdxD3BhVTMS+0Lef/TU7YO0Jvr0jJY8T+mw==}
     dev: true
 
-  /@vueuse/core@10.6.0(vue@3.3.8):
-    resolution: {integrity: sha512-+Yee+g9+9BEbvkyGdn4Bf4yZx9EfocAytpV2ZlrlP7xcz+qznLmZIDqDroTvc5vtMkWZicisgEv8dt3+jL+HQg==}
+  /@vueuse/core@10.6.1(vue@3.3.8):
+    resolution: {integrity: sha512-Pc26IJbqgC9VG1u6VY/xrXXfxD33hnvxBnKrLlA2LJlyHII+BSrRoTPJgGYq7qZOu61itITFUnm6QbacwZ4H8Q==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 10.6.0
-      '@vueuse/shared': 10.6.0(vue@3.3.8)
+      '@vueuse/metadata': 10.6.1
+      '@vueuse/shared': 10.6.1(vue@3.3.8)
       vue-demi: 0.14.6(vue@3.3.8)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: true
 
-  /@vueuse/metadata@10.6.0:
-    resolution: {integrity: sha512-mzKHkHoiK6xVz01VzQjM2l6ofUanEaofgEGPgDHcAzlvOTccPRTIdEuzneOUTYxgfm1vkDikS6rtrEw/NYlaTQ==}
+  /@vueuse/metadata@10.6.1:
+    resolution: {integrity: sha512-qhdwPI65Bgcj23e5lpGfQsxcy0bMjCAsUGoXkJ7DsoeDUdasbZ2DBa4dinFCOER3lF4gwUv+UD2AlA11zdzMFw==}
     dev: true
 
-  /@vueuse/nuxt@10.6.0(nuxt@3.8.1)(vue@3.3.8):
-    resolution: {integrity: sha512-BME2k2Pa7BOI7D5ymGzHD7VdJ6qCPr53AwuCbNTdtul3DgemCHwMdGYMSD0Nbem2O5EC+0nvLq951Gvbvr7Djw==}
+  /@vueuse/nuxt@10.6.1(nuxt@3.8.1)(vue@3.3.8):
+    resolution: {integrity: sha512-MnXg0ZviWHKcf2CsBYeHXhK9Pqn2TF7EJfaLgd+3rHEyb6XlSLUKBTPNCiO+5VH3Ck1IJAez90KS3VAdSqqs1w==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.8.1
-      '@vueuse/core': 10.6.0(vue@3.3.8)
-      '@vueuse/metadata': 10.6.0
+      '@vueuse/core': 10.6.1(vue@3.3.8)
+      '@vueuse/metadata': 10.6.1
       local-pkg: 0.5.0
       nuxt: 3.8.1(@types/node@20.9.0)(sass@1.69.5)(typescript@5.2.2)(vite@4.5.0)
       vue-demi: 0.14.6(vue@3.3.8)
@@ -5107,8 +5107,8 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/shared@10.6.0(vue@3.3.8):
-    resolution: {integrity: sha512-0t4MVE18sO+/4Gh0jfeOXBTjKeV4606N9kIrDOLPjFl8Rwnlodn+QC5A4LfJuysK7aOsTMjF3KnzNeueaI0xlQ==}
+  /@vueuse/shared@10.6.1(vue@3.3.8):
+    resolution: {integrity: sha512-TECVDTIedFlL0NUfHWncf3zF9Gc4VfdxfQc8JFwoVZQmxpONhLxFrlm0eHQeidHj4rdTPL3KXJa0TZCk1wnc5Q==}
     dependencies:
       vue-demi: 0.14.6(vue@3.3.8)
     transitivePeerDependencies:
@@ -12223,8 +12223,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-icons@0.17.3:
-    resolution: {integrity: sha512-uvopA4I6QYWYpwAyRvG/4NNvR1Cd4GnF/mtOkybgP2YPkHjRX02l/ALm20VUla31Jt9eZHxHyODtNf/Upx5uaw==}
+  /unplugin-icons@0.17.4:
+    resolution: {integrity: sha512-PHLxjBx3ZV8RUBvfMafFl8uWH88jHeZgOijcRpkwgne7y2Ovx7WI0Ltzzw3fjZQ7dGaDhB8udyKVdm9N2S6BIw==}
     peerDependencies:
       '@svgr/core': '>=7.0.0'
       '@svgx/core': ^1.0.1
