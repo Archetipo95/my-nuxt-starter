@@ -24,17 +24,6 @@ export const Default: Story = {
   },
 }
 
-export const Focused: Story = {
-  render: Default.render,
-  args: Default.args,
-  play: ({ canvasElement }) => {
-    const canvas = within(canvasElement)
-
-    // Focus on button
-    canvas.getByRole('button').focus()
-  },
-}
-
 export const Opened: Story = {
   render: Default.render,
   args: Default.args,
@@ -49,9 +38,6 @@ export const Opened: Story = {
 
     // Click on button
     await userEvent.click(canvas.getByRole('button'))
-
-    // Unfocus button
-    await userEvent.tab()
 
     // Check if text is visible
     await expect(canvas.queryByText(args.text)).toBeInTheDocument()
