@@ -14,7 +14,7 @@
     "@nuxtjs/tailwindcss": "6.9.5",
     "@storybook/addon-a11y": "7.6.0-alpha.6",
     "@storybook/addon-designs": "7.0.5",
-    "@storybook/addon-essentials": "7.6.0-alpha.6",
+    "@storybook/addon-essentials": "7.6.2",
     "@storybook/addon-interactions": "7.6.0-alpha.6",
     "@storybook/addon-links": "7.6.0-alpha.6",
     "@storybook/addon-themes": "7.6.0-alpha.6",
