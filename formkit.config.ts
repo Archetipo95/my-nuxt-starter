@@ -2,7 +2,7 @@ import { createFloatingLabelsPlugin, createAutoAnimatePlugin } from '@formkit/ad
 import { defineFormKitConfig } from '@formkit/vue'
 import { generateClasses } from '@formkit/themes'
 import { genesisIcons } from '@formkit/icons'
-// import tailwindTheme from '@design-system/configs/formkit/tailwind-theme'
+import tailwindTheme from './tailwind-theme'
 //import { rootClasses } from './formkit.theme'
 
 export default defineFormKitConfig(() => {
@@ -17,7 +17,7 @@ export default defineFormKitConfig(() => {
       ...genesisIcons,
     },
     config: {
-      // classes: generateClasses(tailwindTheme),
+      classes: generateClasses(tailwindTheme),
     },
   }
 })

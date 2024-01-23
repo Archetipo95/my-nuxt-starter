@@ -29,6 +29,7 @@
     "@storybook/vue3-vite": "7.6.10",
     "@types/node": "20.11.5",
     "@vueuse/nuxt": "10.7.2",
+    "formkit": "1.5.1",
     "nuxt": "3.9.3",
     "nuxt-headlessui": "1.1.5",
     "nuxt-lodash": "2.5.3",
