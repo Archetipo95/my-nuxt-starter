@@ -11,11 +11,11 @@
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
-    "@formkit/addons": "1.5.1",
-    "@formkit/icons": "1.5.1",
-    "@formkit/nuxt": "1.5.1",
+    "@formkit/addons": "1.5.2",
+    "@formkit/icons": "1.5.2",
+    "@formkit/nuxt": "1.5.2",
     "@formkit/pro": "0.119.9",
-    "@formkit/themes": "1.5.1",
+    "@formkit/themes": "1.5.2",
     "@nuxtjs/tailwindcss": "6.11.0",
     "@storybook/addon-a11y": "7.6.10",
     "@storybook/addon-designs": "7.0.9",
@@ -29,7 +29,6 @@
     "@storybook/vue3-vite": "7.6.10",
     "@types/node": "20.11.5",
     "@vueuse/nuxt": "10.7.2",
-    "formkit": "1.5.1",
     "nuxt": "3.9.3",
     "nuxt-headlessui": "1.1.5",
     "nuxt-lodash": "2.5.3",
