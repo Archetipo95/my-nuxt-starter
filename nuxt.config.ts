@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt', 'nuxt-lodash', 'nuxt-headlessui'],
+  modules: ['@formkit/nuxt', '@nuxtjs/tailwindcss', '@vueuse/nuxt', 'nuxt-lodash', 'nuxt-headlessui'],
   css: ['@/assets/scss/main.scss'],
 
   tailwindcss: {
@@ -32,5 +32,9 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+  },
+
+  formkit: {
+    autoImport: true,
   },
 })
