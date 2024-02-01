@@ -21,7 +21,7 @@
     "@storybook/addon-designs": "7.0.9",
     "@storybook/addon-essentials": "7.6.10",
     "@storybook/addon-interactions": "7.6.10",
-    "@storybook/addon-links": "7.6.10",
+    "@storybook/addon-links": "7.6.12",
     "@storybook/addon-themes": "7.6.10",
     "@storybook/test": "7.6.10",
     "@storybook/testing-library": "0.2.2",
