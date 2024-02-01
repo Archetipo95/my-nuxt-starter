@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.5.2
     version: 1.5.2
   '@formkit/icons':
-    specifier: 1.5.2
-    version: 1.5.2
+    specifier: 1.5.3
+    version: 1.5.3
   '@formkit/nuxt':
     specifier: 1.5.2
     version: 1.5.2(esbuild@0.18.20)(tailwindcss@3.4.1)(typescript@5.3.3)(vite@5.0.12)
@@ -1974,6 +1974,12 @@ packages:
       '@formkit/utils': 1.5.2
     dev: true
 
+  /@formkit/core@1.5.3:
+    resolution: {integrity: sha512-aOgtncSwtlHftUwGlF7oMJwSbmv42A/3SryRSwIPdAzJnLRHzPTPeINwCiEMuu7VvJ7kmQfLfxqXSFFsDg/uCA==}
+    dependencies:
+      '@formkit/utils': 1.5.3
+    dev: true
+
   /@formkit/dev@1.5.2:
     resolution: {integrity: sha512-uTndXSuF/SM4xQiOjA/Uv5O03lm06olCUhRikxTXHqO3OiMNw94+iO8DXnJd29qhcc7b+jq1pUzauO8M7c9bdA==}
     dependencies:
@@ -1993,10 +1999,10 @@ packages:
       '@formkit/validation': 1.5.2
     dev: true
 
-  /@formkit/icons@1.5.2:
-    resolution: {integrity: sha512-23kXF8YZYSf/huF77up1fxVLZ/IBLipeWOALm1KmI+PmcC4clYuKzO3X9rZw4oD4u9GHwMs0pwESDEDfm4JLPw==}
+  /@formkit/icons@1.5.3:
+    resolution: {integrity: sha512-ymqlEY15Egx0lJudqjhfLIcYpBr1mOa/0V+Ir30sq0/Q9z0fDcfjb980QT433ZOMfBvu771cZCPi+0Nibo+0Uw==}
     dependencies:
-      '@formkit/core': 1.5.2
+      '@formkit/core': 1.5.3
     dev: true
 
   /@formkit/inputs@1.5.2:
@@ -2072,6 +2078,10 @@ packages:
 
   /@formkit/utils@1.5.2:
     resolution: {integrity: sha512-wWqFIyIoeld6v+nqwV89z96HSvEFXKJv0sigmaXT+j6wZKnQgNFVsSEaG/B4Ku3fx2OW03GrtjJKm0qBBpt4qw==}
+    dev: true
+
+  /@formkit/utils@1.5.3:
+    resolution: {integrity: sha512-WmdWYq3rZqI+AXJ7tY1E9ASH8PJ0XSYXhjnoY5wCBepRvKme6kElMaq8PifFMAN+2QBXv2UV1JjQvbCKZxeh9w==}
     dev: true
 
   /@formkit/validation@1.5.2:
