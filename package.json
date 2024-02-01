@@ -33,7 +33,7 @@
     "nuxt-headlessui": "1.1.5",
     "nuxt-lodash": "2.5.3",
     "sass": "1.70.0",
-    "storybook": "7.6.10",
+    "storybook": "7.6.12",
     "storybook-addon-themes": "6.1.0",
     "typescript": "5.3.3",
     "unplugin-auto-import": "0.17.5",
