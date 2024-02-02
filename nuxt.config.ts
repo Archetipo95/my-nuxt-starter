@@ -37,4 +37,11 @@ export default defineNuxtConfig({
   formkit: {
     autoImport: true,
   },
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
