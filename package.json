@@ -14,12 +14,12 @@
     "clean-project": "pnpm clean-node && pnpm clean-nuxt && rm -rf ./packages/*/auto-imports.d.ts && rm -rf ./packages/*/components.d.ts"
   },
   "devDependencies": {
-    "@formkit/addons": "1.5.3",
-    "@formkit/icons": "1.5.3",
-    "@formkit/nuxt": "1.5.3",
+    "@formkit/addons": "1.5.5",
+    "@formkit/icons": "1.5.5",
+    "@formkit/nuxt": "1.5.5",
     "@formkit/pro": "0.119.13",
-    "@formkit/themes": "1.5.3",
-    "@nuxtjs/tailwindcss": "6.11.2",
+    "@formkit/themes": "1.5.5",
+    "@nuxtjs/tailwindcss": "6.11.3",
     "@storybook/addon-a11y": "7.6.12",
     "@storybook/addon-designs": "7.0.9",
     "@storybook/addon-essentials": "7.6.12",
@@ -40,7 +40,7 @@
     "storybook-addon-themes": "6.1.0",
     "typescript": "5.3.3",
     "unplugin-auto-import": "0.17.5",
-    "unplugin-icons": "0.18.3",
+    "unplugin-icons": "0.18.5",
     "unplugin-vue-components": "0.26.0",
     "vite-tsconfig-paths": "4.3.1"
   },
