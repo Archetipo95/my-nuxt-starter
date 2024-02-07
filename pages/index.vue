@@ -3,5 +3,10 @@
     <Disclosure title="Lorem ipsum dolor sit amet" text="Dolore officia ab impedit iste non illo itaque quos nesciunt modi adipisci, odit aperiam nemo, est tenetur reiciendis, maiores repellendus." />
 
     <Card title="Is your dog older than you?" />
+
+    <ul>
+      <li><NuxtLink to="page2">page2</NuxtLink></li>
+      <li><NuxtLink to="page3">page3</NuxtLink></li>
+    </ul>
   </div>
 </template>
