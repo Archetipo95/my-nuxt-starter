@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@formkit/nuxt', '@nuxtjs/tailwindcss', '@vueuse/nuxt', 'nuxt-lodash', 'nuxt-headlessui'],
+  modules: ['@formkit/nuxt', '@nuxtjs/tailwindcss', '@vueuse/nuxt', 'nuxt-lodash', 'nuxt-headlessui', '@nuxt/test-utils/module'],
   css: ['@/assets/scss/main.scss'],
 
   tailwindcss: {
