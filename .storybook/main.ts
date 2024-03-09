@@ -11,7 +11,9 @@ const config: StorybookConfig = {
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', '@storybook/addon-themes', '@storybook/addon-designs', '@storybook/addon-a11y'],
   framework: {
     name: '@storybook/vue3-vite',
-    options: {},
+    options: {
+      docgen: 'vue-component-meta',
+    },
   },
   viteFinal: async (config) => {
     return mergeConfig(config, {
@@ -27,7 +29,7 @@ const config: StorybookConfig = {
       },
       plugins: [
         Components({
-          dirs: [join(__dirname, '../components'), join(__dirname, '../forms/components')],
+          dirs: [join(__dirname, '../components')],
           deep: true,
           directoryAsNamespace: false,
           resolvers: [
@@ -75,4 +77,5 @@ const config: StorybookConfig = {
     autodocs: 'tag',
   },
 }
+
 export default config
