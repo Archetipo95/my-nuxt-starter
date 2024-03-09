@@ -11,7 +11,7 @@
     "storybook-serve": "npx http-server ./storybook-static",
     "clean-node": "rm -rf node_modules",
     "clean-nuxt": "rm -rf .nuxt",
-    "clean-project": "bun clean-node && bun clean-nuxt && rm -rf auto-imports.d.ts && rm -rf components.d.ts"
+    "clean-project": "pnpm clean-node && pnpm clean-nuxt && rm -rf auto-imports.d.ts && rm -rf components.d.ts"
   },
   "devDependencies": {
     "@formkit/addons": "1.5.9",
@@ -37,7 +37,6 @@
     "nuxt-lodash": "2.5.3",
     "sass": "1.71.1",
     "storybook": "7.6.17",
-    "storybook-addon-themes": "6.1.0",
     "typescript": "5.4.2",
     "unplugin-auto-import": "0.17.5",
     "unplugin-icons": "0.18.5",
