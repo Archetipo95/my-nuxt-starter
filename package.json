@@ -1,4 +1,6 @@
 {
+  "name": "my-nuxt-starter",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
@@ -44,7 +46,5 @@
     "unplugin-icons": "0.18.5",
     "unplugin-vue-components": "0.26.0",
     "vite-tsconfig-paths": "4.3.2"
-  },
-  "name": "my-nuxt-starter",
-  "version": "0.1.2"
+  }
 }
