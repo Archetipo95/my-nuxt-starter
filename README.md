@@ -56,13 +56,13 @@ pnpm storybook
 ### Build production
 
 ```bash
-pnpm storybook-build
+pnpm build-storybook
 ```
 
 ### Serve locally the production
 
 ```bash
-pnpm storybook-serve
+pnpm serve-storybook
 ```
 
 ## Deploy on Netlify
@@ -76,7 +76,7 @@ Publish directory: `dist
 
 ### Storybook
 
-Build command: `pnpm build && pnpm storybook-build
+Build command: `pnpm build && pnpm build-storybook
 `
 Publish directory: `storybook-static
 `
