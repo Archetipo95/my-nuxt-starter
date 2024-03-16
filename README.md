@@ -10,7 +10,7 @@ Description
 1. Nuxt 3
 2. TailwindCSS (@nuxtjs/tailwindcss)
 3. VueUse (@vueuse/nuxt)
-4. Storybook 7
+4. Storybook 8
 5. Lodash (nuxt-lodash)
 6. HeadlessUI (nuxt-headlessui)
 7. FormKit (@formkit/nuxt)
