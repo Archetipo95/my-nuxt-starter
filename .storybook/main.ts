@@ -5,13 +5,16 @@ import { join } from 'path'
 import { mergeConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
+import vue from '@vitejs/plugin-vue'
 
 const config: StorybookConfig = {
   stories: ['../components/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', '@storybook/addon-themes', '@storybook/addon-designs', '@storybook/addon-a11y'],
   framework: {
     name: '@storybook/vue3-vite',
-    options: {},
+    options: {
+      docgen: 'vue-component-meta',
+    },
   },
   viteFinal: async (config) => {
     return mergeConfig(config, {
@@ -19,15 +22,13 @@ const config: StorybookConfig = {
       resolve: {
         dedupe: ['@storybook/client-api'],
         alias: {
-          '#app': `${__dirname}/mocks/useState.js`,
-          '#head': `${__dirname}/mocks/useHead.js`,
-          '#imports': `${__dirname}/mocks/useHead.js`,
           '~': join(__dirname, '../'),
         },
       },
       plugins: [
+        vue(),
         Components({
-          dirs: [join(__dirname, '../components'), join(__dirname, '../forms/components')],
+          dirs: [join(__dirname, '../components')],
           deep: true,
           directoryAsNamespace: false,
           resolvers: [
@@ -75,4 +76,5 @@ const config: StorybookConfig = {
     autodocs: 'tag',
   },
 }
+
 export default config
