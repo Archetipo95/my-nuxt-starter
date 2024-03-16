@@ -18,7 +18,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      # - uses: pnpm/action-setup@v3
+      - name: Use pnmp
+        uses: pnpm/action-setup@v3
 
       - name: Install dependencies
         run: |
