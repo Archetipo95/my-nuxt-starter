@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-          cache-dependency-path: subdir/pnpm-lock.yaml
+          cache-dependency-path: /pnpm-lock.yaml
 
       - name: Use pnmp
         uses: pnpm/action-setup@v3
