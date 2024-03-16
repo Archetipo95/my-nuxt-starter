@@ -3,7 +3,8 @@
 Description
 
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/4360c956-7cd2-44f1-aad8-33088c8d3637/deploy-status)](https://app.netlify.com/sites/my-nuxt-experiments/deploys) Site: https://my-nuxt-experiments.netlify.app
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/4613b090-beaf-46a6-849d-bee5a39deeb9/deploy-status)](https://app.netlify.com/sites/my-nuxt-starter-storybook/deploys) Storybook : https://my-nuxt-starter-storybook.netlify.app
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4613b090-beaf-46a6-849d-bee5a39deeb9/deploy-status)](https://app.netlify.com/sites/my-nuxt-starter-storybook/deploys) Storybook on Netlify: https://my-nuxt-starter-storybook.netlify.app
+- [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--65f5b391c034b704dd98a557.chromatic.com) Storybook on Chromatic: https://main--65f5b391c034b704dd98a557.chromatic.com
 
 ## Features
 
