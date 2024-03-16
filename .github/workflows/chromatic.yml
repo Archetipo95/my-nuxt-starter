@@ -18,6 +18,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: subdir/pnpm-lock.yaml
+
       - name: Use pnmp
         uses: pnpm/action-setup@v3
 
