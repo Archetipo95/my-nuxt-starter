@@ -5,6 +5,7 @@ import { join } from 'path'
 import { mergeConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
+import vue from '@vitejs/plugin-vue'
 
 const config: StorybookConfig = {
   stories: ['../components/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
@@ -21,13 +22,11 @@ const config: StorybookConfig = {
       resolve: {
         dedupe: ['@storybook/client-api'],
         alias: {
-          '#app': `${__dirname}/mocks/useState.js`,
-          '#head': `${__dirname}/mocks/useHead.js`,
-          '#imports': `${__dirname}/mocks/useHead.js`,
           '~': join(__dirname, '../'),
         },
       },
       plugins: [
+        vue(),
         Components({
           dirs: [join(__dirname, '../components')],
           deep: true,
