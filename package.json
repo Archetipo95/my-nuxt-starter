@@ -21,7 +21,6 @@
     "@formkit/icons": "1.6.0",
     "@formkit/nuxt": "1.6.0",
     "@formkit/pro": "0.122.11",
-    "@formkit/themes": "1.6.0",
     "@nuxtjs/i18n": "8.2.0",
     "@nuxtjs/tailwindcss": "6.11.4",
     "@storybook/addon-a11y": "8.0.4",

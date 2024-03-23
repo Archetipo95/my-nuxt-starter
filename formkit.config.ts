@@ -3,10 +3,8 @@ import {
   createAutoAnimatePlugin,
 } from '@formkit/addons'
 import { defineFormKitConfig } from '@formkit/vue'
-import { generateClasses } from '@formkit/themes'
 import { genesisIcons } from '@formkit/icons'
-import tailwindTheme from './tailwind-theme'
-//import { rootClasses } from './formkit.theme'
+import { rootClasses } from './formkit.theme'
 
 export default defineFormKitConfig(() => {
   return {
@@ -20,7 +18,7 @@ export default defineFormKitConfig(() => {
       ...genesisIcons,
     },
     config: {
-      classes: generateClasses(tailwindTheme),
+      rootClasses,
     },
   }
 })

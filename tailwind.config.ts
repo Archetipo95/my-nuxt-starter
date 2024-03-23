@@ -1,9 +1,14 @@
 import type { Config } from 'tailwindcss'
 
 export default {
-  content: ['./components/**/*.{html,js,vue}'],
-  // Toggle dark-mode based on class or data-mode=”dark”
-  //darkMode: ['class', '[data-mode="dark"]'],
+  content: [
+    './formkit.theme.ts',
+    './app.vue',
+    './components/**/*.{vue,ts,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+  ],
+  darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     extend: {},
   },

@@ -13,5 +13,7 @@ defineProps<HelloWorldProps>()
       Go to google
     </NuxtLink>
     <NuxtImg src="https://placehold.co/600x400/png" />
+
+    <FormKit type="text" label="Label" />
   </div>
 </template>
