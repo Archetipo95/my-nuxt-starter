@@ -1,3 +1,6 @@
+import Components from 'unplugin-vue-components/vite'
+import { resolveIcons, mapIcons } from './utils/iconSetting'
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -37,6 +40,15 @@ export default defineNuxtConfig({
    */
   formkit: {
     autoImport: true,
+  },
+  vite: {
+    plugins: [
+      Components({
+        resolvers: [resolveIcons()],
+        dts: true,
+      }),
+      mapIcons(),
+    ],
   },
   postcss: {
     plugins: {

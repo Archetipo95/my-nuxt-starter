@@ -15,10 +15,11 @@ Description
 5. Lodash (nuxt-lodash)
 6. HeadlessUI (nuxt-headlessui)
 7. FormKit (@formkit/nuxt)
+8. Icons folder
 
 ## To be added
 
-1. Icons support
+1. Testing
 
 ## Setup
 

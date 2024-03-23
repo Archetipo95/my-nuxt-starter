@@ -6,5 +6,7 @@
     />
 
     <Card title="Is your dog older than you?" />
+
+    <IconsLogoYoutube class="text-red-500" />
   </div>
 </template>

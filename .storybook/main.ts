@@ -1,5 +1,6 @@
 import type { StorybookConfig } from '@storybook/vue3-vite'
 import Components from 'unplugin-vue-components/vite'
+import { resolveIcons, mapIcons } from '../utils/iconSetting'
 import AutoImport from 'unplugin-auto-import/vite'
 import { join } from 'path'
 import { mergeConfig } from 'vite'
@@ -39,6 +40,7 @@ const config: StorybookConfig = {
           deep: true,
           directoryAsNamespace: false,
           resolvers: [
+            resolveIcons(),
             HeadlessUiResolver({
               prefix: 'Headless',
             }),
@@ -66,6 +68,7 @@ const config: StorybookConfig = {
           ],
           dts: true,
         }),
+        mapIcons(),
         AutoImport({
           dirs: [join(__dirname, '../composables'), join(__dirname, './mocks')],
           imports: ['vue', '@vueuse/core', 'vue-i18n'],
@@ -86,5 +89,4 @@ const config: StorybookConfig = {
     autodocs: 'tag',
   },
 }
-
 export default config
