@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "lokalise.i18n-ally",
+    "streetsidesoftware.code-spell-checker" ,
+    "stylelint.vscode-stylelint",
+    "usernamehw.errorlens",    
+    "vitest.explorer",
+    "vue.volar",
+    "YoavBls.pretty-ts-errors",
+  ],
+}
