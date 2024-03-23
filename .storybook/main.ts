@@ -9,7 +9,14 @@ import vue from '@vitejs/plugin-vue'
 
 const config: StorybookConfig = {
   stories: ['../components/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions', '@storybook/addon-themes', '@storybook/addon-designs', '@storybook/addon-a11y'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/addon-themes',
+    '@storybook/addon-designs',
+    '@storybook/addon-a11y',
+  ],
   framework: {
     name: '@storybook/vue3-vite',
     options: {
@@ -46,7 +53,10 @@ const config: StorybookConfig = {
             },
             // @ts-ignore
             (componentName: string) => {
-              if (componentName === 'NuxtImg' || componentName === 'NuxtPicture') {
+              if (
+                componentName === 'NuxtImg' ||
+                componentName === 'NuxtPicture'
+              ) {
                 return {
                   name: componentName,
                   path: join(__dirname, './mocks/NuxtImage'),

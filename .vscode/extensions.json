@@ -4,11 +4,11 @@
     "esbenp.prettier-vscode",
     "Gruntfuggly.todo-tree",
     "lokalise.i18n-ally",
-    "streetsidesoftware.code-spell-checker" ,
+    "streetsidesoftware.code-spell-checker",
     "stylelint.vscode-stylelint",
-    "usernamehw.errorlens",    
+    "usernamehw.errorlens",
     "vitest.explorer",
     "vue.volar",
-    "YoavBls.pretty-ts-errors",
-  ],
+    "YoavBls.pretty-ts-errors"
+  ]
 }

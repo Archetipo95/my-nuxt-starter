@@ -17,7 +17,15 @@ const humanAge = computed(() => {
     <p class="font-bold mb-2">{{ title }}</p>
     <div class="space-x-2">
       <label for="age">Your dog's age</label>
-      <input class="text-black rounded-sm p-1" type="number" name="age" id="age" :max="99" :min="0" v-model="dogAge" />
+      <input
+        class="text-black rounded-sm p-1"
+        type="number"
+        name="age"
+        id="age"
+        :max="99"
+        :min="0"
+        v-model="dogAge"
+      />
     </div>
     <p>
       In human age: <span>{{ humanAge }}</span>

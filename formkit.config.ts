@@ -1,4 +1,7 @@
-import { createFloatingLabelsPlugin, createAutoAnimatePlugin } from '@formkit/addons'
+import {
+  createFloatingLabelsPlugin,
+  createAutoAnimatePlugin,
+} from '@formkit/addons'
 import { defineFormKitConfig } from '@formkit/vue'
 import { generateClasses } from '@formkit/themes'
 import { genesisIcons } from '@formkit/icons'

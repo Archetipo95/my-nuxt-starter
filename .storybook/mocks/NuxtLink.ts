@@ -1,19 +1,19 @@
-import { defineComponent, h } from "vue";
+import { defineComponent, h } from 'vue'
 
 export default defineComponent({
-  name: "NuxtLink",
+  name: 'NuxtLink',
   props: {
     to: [String, Object],
   },
   setup(props, ctx) {
     return () =>
       h(
-        "a",
+        'a',
         {
-          href: typeof props.to === "string" ? props.to : "#",
+          href: typeof props.to === 'string' ? props.to : '#',
           ...ctx.attrs,
         },
         [ctx.slots.default?.()]
-      );
+      )
   },
-});
+})

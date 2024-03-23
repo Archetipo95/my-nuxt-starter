@@ -1,19 +1,19 @@
-import { defineComponent, h } from "vue";
+import { defineComponent, h } from 'vue'
 
 export default defineComponent({
-  name: "NuxtImage",
+  name: 'NuxtImage',
   props: {
     src: String,
   },
   setup(props, ctx) {
     return () =>
       h(
-        "img",
+        'img',
         {
           src: props.src,
           ...ctx.attrs,
         },
         []
-      );
+      )
   },
-});
+})
