@@ -15,11 +15,18 @@ Description
 5. Lodash (nuxt-lodash)
 6. HeadlessUI (nuxt-headlessui)
 7. FormKit (@formkit/nuxt)
-8. Icons folder
+8. Auto imported svg icons
 
 ## To be added
 
-1. Testing
+1. i18n
+2. Testing
+3. Linting
+4. Prettier
+5. Husky
+6. Commitlint
+7. Stylelint
+8. ESLint
 
 ## Setup
 
