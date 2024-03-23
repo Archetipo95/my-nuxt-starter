@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-lodash',
     'nuxt-headlessui',
+    '@nuxtjs/i18n',
   ],
   css: ['@/assets/scss/main.scss'],
   tailwindcss: {
@@ -40,6 +41,14 @@ export default defineNuxtConfig({
    */
   formkit: {
     autoImport: true,
+  },
+  /**
+   * VueUse config
+   * @see https://i18n.nuxtjs.org/
+   */
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
   },
   vite: {
     plugins: [

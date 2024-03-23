@@ -5,7 +5,7 @@ defineProps<HelloWorldProps>()
 
 <template>
   <div>
-    <h1 class="text-red-500">{{ name }}!</h1>
+    <h1 class="text-red-500">{{ $t('hello') }} {{ name }}!</h1>
     <IconsLogoYoutube class="text-red-500" />
 
     <button>just a button</button>
