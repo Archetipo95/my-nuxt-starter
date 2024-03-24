@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { DisclosureProps } from './Disclosure.props.ts'
+import type { ExampleDisclosureProps } from './ExampleDisclosure.props.ts'
 
-defineProps<DisclosureProps>()
+defineProps<ExampleDisclosureProps>()
 </script>
 
 <template>

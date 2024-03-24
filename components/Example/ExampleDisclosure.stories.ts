@@ -1,22 +1,22 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
-import Disclosure from './Disclosure.vue'
+import ExampleDisclosure from './ExampleDisclosure.vue'
 import { within, userEvent, expect, fn } from '@storybook/test'
 
 const meta = {
-  title: 'Components/Disclosure',
-  component: Disclosure,
-} satisfies Meta<typeof Disclosure>
+  title: 'Components/ExampleDisclosure',
+  component: ExampleDisclosure,
+} satisfies Meta<typeof ExampleDisclosure>
 
 export default meta
-type Story = StoryObj<typeof Disclosure>
+type Story = StoryObj<typeof ExampleDisclosure>
 
 export const Default: Story = {
   render: (args) => ({
     setup() {
       return { args }
     },
-    components: { Disclosure },
-    template: '<Disclosure v-bind="args" />',
+    components: { ExampleDisclosure },
+    template: '<ExampleDisclosure v-bind="args" />',
   }),
   args: {
     title: 'Disclosure',
