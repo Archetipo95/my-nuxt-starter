@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     'nuxt-lodash',
     'nuxt-headlessui',
     '@nuxtjs/i18n',
+    "@nuxt/fonts"
   ],
   css: ['@/assets/scss/main.scss'],
   tailwindcss: {

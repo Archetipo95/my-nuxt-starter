@@ -17,6 +17,7 @@ Description
 7. FormKit (@formkit/nuxt)
 8. Auto imported svg icons (vite + unplugin-icons)
 9. Internationalization (@nuxtjs/i18n)
+10. Fonts (@nuxt/fonts)
 
 ## To be added
 
