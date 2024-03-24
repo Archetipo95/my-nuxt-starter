@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { CardProps } from './Card.props'
+import type { ExampleCardProps } from './ExampleCard.props'
 
-defineProps<CardProps>()
+defineProps<ExampleCardProps>()
 
 const dogAge = ref(0)
 
