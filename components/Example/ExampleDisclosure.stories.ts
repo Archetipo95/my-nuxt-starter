@@ -25,8 +25,7 @@ export const Default: Story = {
 }
 
 export const Opened: Story = {
-  render: Default.render,
-  args: Default.args,
+  ...Default,
   play: async ({ args, canvasElement }) => {
     const canvas = within(canvasElement)
 

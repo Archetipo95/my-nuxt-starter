@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { HelloWorldProps } from './HelloWorld.props'
-defineProps<HelloWorldProps>()
+import type { ExampleHelloWorldProps } from './ExampleHelloWorld.props'
+defineProps<ExampleHelloWorldProps>()
 </script>
 
 <template>
