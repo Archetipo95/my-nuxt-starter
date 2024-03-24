@@ -7,10 +7,6 @@
 
     <ExampleCard title="Is your dog older than you?" />
 
-    <IconsLogoYoutube class="text-red-500" />
-
     <ExampleHelloWorld name="User" />
-
-    <FormKit type="text" label="Label" />
   </div>
 </template>
