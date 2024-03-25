@@ -22,12 +22,8 @@ Description
 ## To be added
 
 - Testing
-- Linting
+- Linting (Stylelint, ESLint)
 - Prettier
-- Husky
-- Commitlint
-- Stylelint
-- ESLint
 
 ## Setup
 
