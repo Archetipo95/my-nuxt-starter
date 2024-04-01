@@ -38,7 +38,7 @@
     "@storybook/vue3-vite": "8.0.5",
     "@types/node": "20.11.30",
     "@vueuse/nuxt": "10.9.0",
-    "chromatic": "11.2.0",
+    "chromatic": "11.3.0",
     "nuxt": "3.11.1",
     "nuxt-headlessui": "1.1.5",
     "nuxt-lodash": "2.5.3",
