@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.6.1
     version: 1.6.1(esbuild@0.20.2)(rollup@4.13.2)(tailwindcss@3.4.3)(unocss@0.58.8)(vite@5.2.6)(vue@3.4.21)
   '@formkit/pro':
-    specifier: 0.122.11
-    version: 0.122.11(@formkit/core@1.6.1)(@formkit/inputs@1.6.1)
+    specifier: 0.122.13
+    version: 0.122.13(@formkit/core@1.6.1)(@formkit/inputs@1.6.1)
   '@nuxt/devtools':
     specifier: 1.1.5
     version: 1.1.5(@unocss/reset@0.58.8)(floating-vue@5.2.2)(nuxt@3.11.1)(rollup@4.13.2)(unocss@0.58.8)(vite@5.2.6)(vue@3.4.21)
@@ -1866,8 +1866,8 @@ packages:
       '@formkit/utils': 1.6.1
     dev: true
 
-  /@formkit/pro@0.122.11(@formkit/core@1.6.1)(@formkit/inputs@1.6.1):
-    resolution: {integrity: sha512-knWoqefZxGq7kZ95OL6d5rX6aqE9bOBa5wy4rPW2KStTMMkZTiiqVzo7bBNcNZ5NyONlbkgmfKOy1X3ptWJa9Q==}
+  /@formkit/pro@0.122.13(@formkit/core@1.6.1)(@formkit/inputs@1.6.1):
+    resolution: {integrity: sha512-jTTs5DHRNSBg5rEazKdbEesTrEUvUCbg/NsFdvzrM5NOaooOgMfXyP+EaydLQt4Ygic6qMyj7uYh1+vEB5rwYw==}
     peerDependencies:
       '@formkit/core': ^1.5.9
       '@formkit/inputs': ^1.5.9
