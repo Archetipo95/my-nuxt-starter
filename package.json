@@ -36,7 +36,7 @@
     "@storybook/testing-library": "0.2.2",
     "@storybook/vue3": "8.0.5",
     "@storybook/vue3-vite": "8.0.5",
-    "@types/node": "20.12.2",
+    "@types/node": "20.12.3",
     "@vueuse/nuxt": "10.9.0",
     "chromatic": "11.3.0",
     "nuxt": "3.11.1",
