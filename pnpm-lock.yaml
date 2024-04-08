@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.6.1
     version: 1.6.1
   '@formkit/icons':
-    specifier: 1.6.1
-    version: 1.6.1
+    specifier: 1.6.2
+    version: 1.6.2
   '@formkit/nuxt':
     specifier: 1.6.1
     version: 1.6.1(esbuild@0.20.2)(rollup@4.14.0)(tailwindcss@3.4.3)(unocss@0.59.0)(vite@5.2.8)(vue@3.4.21)
@@ -1816,6 +1816,12 @@ packages:
       '@formkit/utils': 1.6.1
     dev: true
 
+  /@formkit/core@1.6.2:
+    resolution: {integrity: sha512-48LGugLoQ9QR/GDvsVwviMQ/lk9rWA0iDy8Zg9BXPn0nfuWr5EW2IOTEZW3ZX8mAyvVZ4s+Xt5S40la8Sj5GTA==}
+    dependencies:
+      '@formkit/utils': 1.6.2
+    dev: true
+
   /@formkit/dev@1.6.1:
     resolution: {integrity: sha512-19AMxbmH+zRmnO3UQXjBuHA4R3HgUsPP6yR3Fx0Xc1BkGWOHfULW7ItINbe1WLgs4rNkdu85FfkZBb7XzLnTTg==}
     dependencies:
@@ -1835,10 +1841,10 @@ packages:
       '@formkit/validation': 1.6.1
     dev: true
 
-  /@formkit/icons@1.6.1:
-    resolution: {integrity: sha512-J02b4cBtrATLDiXoX0d2MSp4CxPjRXBcYsFbC0BpG593e2fo5LQ76suVlF9X6ILSUtwbCzybZRwnOcLYSsdiAw==}
+  /@formkit/icons@1.6.2:
+    resolution: {integrity: sha512-NubYCeXJmYpwO3nn+x9+iCJVmc5I52A0ykVMbPOlLjmoZRQnXP+ABaJjzZ+S5BsNjra3LxBjkaL5svpNixCxeg==}
     dependencies:
-      '@formkit/core': 1.6.1
+      '@formkit/core': 1.6.2
     dev: true
 
   /@formkit/inputs@1.6.1:
@@ -1923,6 +1929,10 @@ packages:
 
   /@formkit/utils@1.6.1:
     resolution: {integrity: sha512-34KtuNgNoVe/kG4eJ52tUgJ/kT+PTrQGvtHg9n4zb5oTZW66J7wZR1IbRl/PV19yZr6gvpLBfyt9VYEgkEnZHg==}
+    dev: true
+
+  /@formkit/utils@1.6.2:
+    resolution: {integrity: sha512-H7ai+AbemaF9okM2fUeHQUBEiGmiyXX/4M/P1ANI9C3nAqsPewmZucLH0QxihkjuMYOwO+MnHbG3rLS7FAkxig==}
     dev: true
 
   /@formkit/validation@1.6.1:
@@ -4007,7 +4017,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.4.21(typescript@5.4.4)
-      vue-component-type-helpers: 2.0.10
+      vue-component-type-helpers: 2.0.11
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -12641,6 +12651,10 @@ packages:
 
   /vue-component-type-helpers@2.0.10:
     resolution: {integrity: sha512-FC5fKJjDks3Ue/KRSYBdsiCaZa0kUPQfs8yQpb8W9mlO6BenV8G1z58xobeRMzevnmEcDa09LLwuXDwb4f6NMQ==}
+    dev: true
+
+  /vue-component-type-helpers@2.0.11:
+    resolution: {integrity: sha512-8aluKz5oVC8PvVQAYgyIefOlqzKVmAOTCx2imbrFBVLbF7mnJvyMsE2A7rqX/4f4uT6ee9o8u3GcoRpUWc0xsw==}
     dev: true
 
   /vue-demi@0.14.7(vue@3.4.21):
