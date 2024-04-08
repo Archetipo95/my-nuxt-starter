@@ -17,7 +17,7 @@
   },
   "packageManager": "pnpm@8.15.6",
   "devDependencies": {
-    "@formkit/addons": "1.6.1",
+    "@formkit/addons": "1.6.2",
     "@formkit/icons": "1.6.1",
     "@formkit/nuxt": "1.6.1",
     "@formkit/pro": "0.122.15",
