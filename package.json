@@ -44,7 +44,7 @@
     "nuxt-lodash": "2.5.3",
     "sass": "1.74.1",
     "storybook": "8.0.6",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "unplugin-auto-import": "0.17.5",
     "unplugin-icons": "0.18.5",
     "unplugin-vue-components": "0.26.0",
