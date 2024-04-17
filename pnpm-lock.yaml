@@ -16,7 +16,7 @@ devDependencies:
     version: 1.6.2(esbuild@0.20.2)(rollup@4.14.0)(tailwindcss@3.4.3)(unocss@0.59.0)(vite@5.2.8)(vue@3.4.21)
   '@formkit/pro':
     specifier: 0.122.15
-    version: 0.122.15(@formkit/core@1.6.1)(@formkit/inputs@1.6.1)
+    version: 0.122.15(@formkit/core@1.6.2)(@formkit/inputs@1.6.2)
   '@nuxt/devtools':
     specifier: 1.1.5
     version: 1.1.5(@unocss/reset@0.59.0)(floating-vue@5.2.2)(nuxt@3.11.2)(rollup@4.14.0)(unocss@0.59.0)(vite@5.2.8)(vue@3.4.21)
@@ -30,8 +30,8 @@ devDependencies:
     specifier: 8.3.0
     version: 8.3.0(rollup@4.14.0)(vue@3.4.21)
   '@nuxtjs/tailwindcss':
-    specifier: 6.11.4
-    version: 6.11.4(rollup@4.14.0)
+    specifier: 6.12.0
+    version: 6.12.0(rollup@4.14.0)
   '@storybook/addon-a11y':
     specifier: 8.0.6
     version: 8.0.6
@@ -1477,31 +1477,6 @@ packages:
     dev: true
     optional: true
 
-  /@csstools/cascade-layer-name-parser@1.0.9(@csstools/css-parser-algorithms@2.6.1)(@csstools/css-tokenizer@2.2.4):
-    resolution: {integrity: sha512-RRqNjxTZDUhx7pxYOBG/AkCVmPS3zYzfE47GEhIGkFuWFTQGJBgWOUUkKNo5MfxIfjDz5/1L3F3rF1oIsYaIpw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.6.1
-      '@csstools/css-tokenizer': ^2.2.4
-    dependencies:
-      '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
-      '@csstools/css-tokenizer': 2.2.4
-    dev: true
-
-  /@csstools/css-parser-algorithms@2.6.1(@csstools/css-tokenizer@2.2.4):
-    resolution: {integrity: sha512-ubEkAaTfVZa+WwGhs5jbo5Xfqpeaybr/RvWzvFxRs4jfq16wH8l8Ty/QEEpINxll4xhuGfdMbipRyz5QZh9+FA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-tokenizer': ^2.2.4
-    dependencies:
-      '@csstools/css-tokenizer': 2.2.4
-    dev: true
-
-  /@csstools/css-tokenizer@2.2.4:
-    resolution: {integrity: sha512-PuWRAewQLbDhGeTvFuq2oClaSCKPIBmHyIobCV39JHRYN0byDcUWJl5baPeNUcqrjtdMNqFooE0FGl31I3JOqw==}
-    engines: {node: ^14 || ^16 || >=18}
-    dev: true
-
   /@csstools/selector-resolve-nested@1.1.0(postcss-selector-parser@6.0.16):
     resolution: {integrity: sha512-uWvSaeRcHyeNenKg8tp17EVDRkpflmdyvbE0DHo6D/GdBb6PDnCYYU6gRpXhtICMGMcahQmj2zGxwFM/WC8hCg==}
     engines: {node: ^14 || ^16 || >=18}
@@ -1518,15 +1493,6 @@ packages:
       postcss-selector-parser: ^6.0.13
     dependencies:
       postcss-selector-parser: 6.0.16
-    dev: true
-
-  /@csstools/utilities@1.0.0(postcss@8.4.38):
-    resolution: {integrity: sha512-tAgvZQe/t2mlvpNosA4+CkMiZ2azISW5WPAcdSalZlEjQvUfghHxfQcrCiK/7/CrfAWVxyM88kGFYO82heIGDg==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      postcss: 8.4.38
     dev: true
 
   /@discoveryjs/json-ext@0.5.7:
@@ -1810,12 +1776,6 @@ packages:
     resolution: {integrity: sha512-SwPWfeRa5veb1hOIBMdzI+73te5puUBHmqqaF1Bu7FjvxlYSz/kJcZKSa9Cg60zL0uRNeJL2SbRxV6Jp6Q1nFQ==}
     dev: true
 
-  /@formkit/core@1.6.1:
-    resolution: {integrity: sha512-9QV6Si+YlZ059RvB1NaJiRu9vcTVEMpJ5bIi6Aqt5AyIIQDk1m/u1N0mdugolrhv3FShA5RVJ1Mj2m2zF0BmIw==}
-    dependencies:
-      '@formkit/utils': 1.6.1
-    dev: true
-
   /@formkit/core@1.6.2:
     resolution: {integrity: sha512-48LGugLoQ9QR/GDvsVwviMQ/lk9rWA0iDy8Zg9BXPn0nfuWr5EW2IOTEZW3ZX8mAyvVZ4s+Xt5S40la8Sj5GTA==}
     dependencies:
@@ -1845,13 +1805,6 @@ packages:
     resolution: {integrity: sha512-NubYCeXJmYpwO3nn+x9+iCJVmc5I52A0ykVMbPOlLjmoZRQnXP+ABaJjzZ+S5BsNjra3LxBjkaL5svpNixCxeg==}
     dependencies:
       '@formkit/core': 1.6.2
-    dev: true
-
-  /@formkit/inputs@1.6.1:
-    resolution: {integrity: sha512-XyVv3ujIUVyg9+HnxpmHLOlHHVYibBTK48uT1GP4+FIDRCc31Ow0RXqq432Q7mvz+J6pB8wQXxuaEtV6/k8pvQ==}
-    dependencies:
-      '@formkit/core': 1.6.1
-      '@formkit/utils': 1.6.1
     dev: true
 
   /@formkit/inputs@1.6.2:
@@ -1891,15 +1844,15 @@ packages:
       '@formkit/utils': 1.6.2
     dev: true
 
-  /@formkit/pro@0.122.15(@formkit/core@1.6.1)(@formkit/inputs@1.6.1):
+  /@formkit/pro@0.122.15(@formkit/core@1.6.2)(@formkit/inputs@1.6.2):
     resolution: {integrity: sha512-g0XvP9w11IrxsiLEjge3JUTBf+ijJTfkHM4YrOLRKvT0kGsswX4Cy1VyJoByyTSjeX3oYc12zRP7i2se+GMvXw==}
     peerDependencies:
       '@formkit/core': ^1.5.9
       '@formkit/inputs': ^1.5.9
     dependencies:
-      '@formkit/core': 1.6.1
+      '@formkit/core': 1.6.2
       '@formkit/drag-and-drop': 0.0.30
-      '@formkit/inputs': 1.6.1
+      '@formkit/inputs': 1.6.2
       '@formkit/tempo': 0.0.8
     dev: true
 
@@ -1932,10 +1885,6 @@ packages:
       '@formkit/core': 1.6.2
       tailwindcss: 3.4.3
       unocss: 0.59.0(postcss@8.4.38)(rollup@4.14.0)(vite@5.2.8)
-    dev: true
-
-  /@formkit/utils@1.6.1:
-    resolution: {integrity: sha512-34KtuNgNoVe/kG4eJ52tUgJ/kT+PTrQGvtHg9n4zb5oTZW66J7wZR1IbRl/PV19yZr6gvpLBfyt9VYEgkEnZHg==}
     dev: true
 
   /@formkit/utils@1.6.2:
@@ -2736,24 +2685,21 @@ packages:
       - vue-i18n-bridge
     dev: true
 
-  /@nuxtjs/tailwindcss@6.11.4(rollup@4.14.0):
-    resolution: {integrity: sha512-09cksgZD4seQj054Z/BeiwFg1bzQTol8KPulLDLGnmMTkEi21vj/z+WlXQRpVbN1GS9+oU9tcSsu2ufXCM3DBg==}
+  /@nuxtjs/tailwindcss@6.12.0(rollup@4.14.0):
+    resolution: {integrity: sha512-vXvEq8z177TQcx0tc10mw3O6T9WeN0iTL8hIKGDfidmr+HKReexJU01aPgHefFrCu4LJB70egYFYnywzB9lMyQ==}
     dependencies:
       '@nuxt/kit': 3.11.2(rollup@4.14.0)
       autoprefixer: 10.4.19(postcss@8.4.38)
-      chokidar: 3.6.0
-      clear-module: 4.1.2
       consola: 3.2.3
       defu: 6.1.4
       h3: 1.11.1
-      micromatch: 4.0.5
       pathe: 1.1.2
       postcss: 8.4.38
-      postcss-custom-properties: 13.3.6(postcss@8.4.38)
       postcss-nesting: 12.1.1(postcss@8.4.38)
-      tailwind-config-viewer: 1.7.3(tailwindcss@3.4.3)
+      tailwind-config-viewer: 2.0.1(tailwindcss@3.4.3)
       tailwindcss: 3.4.3
       ufo: 1.5.3
+      unctx: 2.3.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4024,7 +3970,7 @@ packages:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.4.21(typescript@5.4.5)
-      vue-component-type-helpers: 2.0.12
+      vue-component-type-helpers: 2.0.13
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5698,11 +5644,6 @@ packages:
       set-function-length: 1.2.2
     dev: true
 
-  /callsites@3.1.0:
-    resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
-    engines: {node: '>=6'}
-    dev: true
-
   /camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
@@ -5832,14 +5773,6 @@ packages:
   /clean-stack@2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
     engines: {node: '>=6'}
-    dev: true
-
-  /clear-module@4.1.2:
-    resolution: {integrity: sha512-LWAxzHqdHsAZlPlEyJ2Poz6AIs384mPeqLVCru2p0BrP9G/kVGuhNyZYClLO6cXlnuJjzC8xtsJIuMjKqLXoAw==}
-    engines: {node: '>=8'}
-    dependencies:
-      parent-module: 2.0.0
-      resolve-from: 5.0.0
     dev: true
 
   /clear@0.1.0:
@@ -6035,7 +5968,7 @@ packages:
     dev: true
 
   /concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /confbox@0.1.3:
@@ -6661,7 +6594,7 @@ packages:
     dev: true
 
   /ee-first@1.1.1:
-    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
+    resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
   /ejs@3.1.9:
@@ -8765,7 +8698,7 @@ packages:
     dev: true
 
   /media-typer@0.3.0:
-    resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=}
+    resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
     engines: {node: '>= 0.6'}
     dev: true
 
@@ -9743,13 +9676,6 @@ packages:
     resolution: {integrity: sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==}
     dev: true
 
-  /parent-module@2.0.0:
-    resolution: {integrity: sha512-uo0Z9JJeWzv8BG+tRcapBKNJ0dro9cLyczGzulS6EfeyAdeC9sbojtW6XwvYxJkEne9En+J2XEl4zyglVeIwFg==}
-    engines: {node: '>=8'}
-    dependencies:
-      callsites: 3.1.0
-    dev: true
-
   /parse-git-config@3.0.0:
     resolution: {integrity: sha512-wXoQGL1D+2COYWCD35/xbiKma1Z15xvZL8cI25wvxzled58V51SJM04Urt/uznS900iQor7QO04SgdfT/XlbuA==}
     engines: {node: '>=8'}
@@ -9971,20 +9897,6 @@ packages:
       postcss: ^8.4.31
     dependencies:
       browserslist: 4.23.0
-      postcss: 8.4.38
-      postcss-value-parser: 4.2.0
-    dev: true
-
-  /postcss-custom-properties@13.3.6(postcss@8.4.38):
-    resolution: {integrity: sha512-vVVIwQbJiIz+PBLMIWA6XMi53Zg66/f474KolA7x0Das6EwkATc/9ZvM6zZx2gs7ZhcgVHjmWBbHkK9FlCgLeA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      '@csstools/cascade-layer-name-parser': 1.0.9(@csstools/css-parser-algorithms@2.6.1)(@csstools/css-tokenizer@2.2.4)
-      '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
-      '@csstools/css-tokenizer': 2.2.4
-      '@csstools/utilities': 1.0.0(postcss@8.4.38)
       postcss: 8.4.38
       postcss-value-parser: 4.2.0
     dev: true
@@ -11552,9 +11464,9 @@ packages:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
     dev: true
 
-  /tailwind-config-viewer@1.7.3(tailwindcss@3.4.3):
-    resolution: {integrity: sha512-rgeFXe9vL4njtaSI1y2uUAD1aRx05RYHbReN72ARAVEVSlNmS0Zf46pj3/ORc3xQwLK/AzbaIs6UFcK7hJSIlA==}
-    engines: {node: '>=8'}
+  /tailwind-config-viewer@2.0.1(tailwindcss@3.4.3):
+    resolution: {integrity: sha512-0mfPRjxzKvQNW5YNh1EXhURV54ZtBvK4489tD8iosAVO8MZagC5BSdcl1i2b0tG+TiYIyEzBwDGQpE9vV/5gaA==}
+    engines: {node: '>=13'}
     hasBin: true
     peerDependencies:
       tailwindcss: 1 || 2 || 2.0.1-compat || 3
@@ -12660,8 +12572,8 @@ packages:
     resolution: {integrity: sha512-FC5fKJjDks3Ue/KRSYBdsiCaZa0kUPQfs8yQpb8W9mlO6BenV8G1z58xobeRMzevnmEcDa09LLwuXDwb4f6NMQ==}
     dev: true
 
-  /vue-component-type-helpers@2.0.12:
-    resolution: {integrity: sha512-iVJugClQdu3ZyF0N4CF3Egi+gWYfnxlIPPGtFXZG29rF3kQIuziP+k7rVGCCHiibIOQ1SlspKjrh+LRYzMpwTA==}
+  /vue-component-type-helpers@2.0.13:
+    resolution: {integrity: sha512-xNO5B7DstNWETnoYflLkVgh8dK8h2ZDgxY1M2O0zrqGeBNq5yAZ8a10yCS9+HnixouNGYNX+ggU9MQQq86HTpg==}
     dev: true
 
   /vue-demi@0.14.7(vue@3.4.21):
