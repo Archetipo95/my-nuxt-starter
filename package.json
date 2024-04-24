@@ -23,7 +23,7 @@
     "@formkit/pro": "0.122.15",
     "@nuxt/image": "1.5.0",
     "@nuxt/fonts": "0.6.1",
-    "@nuxtjs/i18n": "8.3.0",
+    "@nuxtjs/i18n": "8.3.1",
     "@nuxt/devtools": "1.1.5",
     "@nuxtjs/tailwindcss": "6.11.4",
     "@storybook/addon-a11y": "8.0.6",
