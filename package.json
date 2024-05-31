@@ -42,7 +42,7 @@
     "nuxt": "3.11.2",
     "nuxt-headlessui": "1.2.0",
     "nuxt-lodash": "2.5.3",
-    "sass": "1.74.1",
+    "sass": "1.77.4",
     "storybook": "8.0.6",
     "typescript": "5.4.5",
     "unplugin-auto-import": "0.17.5",
