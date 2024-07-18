@@ -38,7 +38,7 @@
     "@types/node": "20.13.0",
     "@vueuse/nuxt": "10.10.0",
     "chromatic": "11.5.0",
-    "nuxt": "3.11.2",
+    "nuxt": "3.12.4",
     "nuxt-headlessui": "1.2.0",
     "nuxt-lodash": "2.5.3",
     "sass": "1.77.4",
