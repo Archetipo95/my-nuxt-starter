@@ -15,7 +15,7 @@
     "clean-nuxt": "rm -rf .nuxt",
     "clean-project": "pnpm clean-node && pnpm clean-nuxt && rm -rf auto-imports.d.ts && rm -rf components.d.ts"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.9.0",
   "devDependencies": {
     "@formkit/addons": "1.6.5",
     "@formkit/icons": "1.6.5",
