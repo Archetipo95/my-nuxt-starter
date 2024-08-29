@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       title: "Martin's Nuxt Starter",
     },
   },
+
   modules: [
     '@formkit/nuxt',
     '@nuxtjs/tailwindcss',
@@ -17,11 +18,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
   ],
+
   css: ['@/assets/scss/main.scss'],
+
   tailwindcss: {
     cssPath: '@/assets/scss/main.scss',
     viewer: false,
   },
+
   /**
    * Nuxt Lodash config
    * @see https://nuxt.com/modules/lodash
@@ -30,6 +34,7 @@ export default defineNuxtConfig({
     prefix: '_',
     upperAfterPrefix: false,
   },
+
   /**
    * Nuxt Headless UI config
    * @see https://nuxt.com/modules/headlessui
@@ -37,6 +42,7 @@ export default defineNuxtConfig({
   headlessui: {
     prefix: 'Headless',
   },
+
   /**
    * Formkit config
    * @see https://formkit.com
@@ -44,6 +50,7 @@ export default defineNuxtConfig({
   formkit: {
     autoImport: true,
   },
+
   /**
    * VueUse config
    * @see https://i18n.nuxtjs.org/
@@ -52,6 +59,7 @@ export default defineNuxtConfig({
     locales: ['en'],
     defaultLocale: 'en',
   },
+
   vite: {
     plugins: [
       Components({
@@ -61,10 +69,13 @@ export default defineNuxtConfig({
       mapIcons(),
     ],
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  compatibilityDate: '2024-08-29',
 })
