@@ -1,31 +1,33 @@
-# Nuxt Starter
+# 🚀 Nuxt Starter
 
-Description
+Welcome to the **Nuxt Starter** repository! This project is a modern web development starter kit using Nuxt 3 and a suite of powerful tools and libraries.
 
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/4360c956-7cd2-44f1-aad8-33088c8d3637/deploy-status)](https://app.netlify.com/sites/my-nuxt-experiments/deploys) Site: https://my-nuxt-experiments.netlify.app
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/4613b090-beaf-46a6-849d-bee5a39deeb9/deploy-status)](https://app.netlify.com/sites/my-nuxt-starter-storybook/deploys) Storybook on Netlify: https://my-nuxt-starter-storybook.netlify.app
-- [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--65f5b391c034b704dd98a557.chromatic.com) Storybook on Chromatic: https://main--65f5b391c034b704dd98a557.chromatic.com
+## 🌟 Description
 
-## Features
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4360c956-7cd2-44f1-aad8-33088c8d3637/deploy-status)](https://app.netlify.com/sites/my-nuxt-experiments/deploys) **Site**: [my-nuxt-experiments.netlify.app](https://my-nuxt-experiments.netlify.app)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4613b090-beaf-46a6-849d-bee5a39deeb9/deploy-status)](https://app.netlify.com/sites/my-nuxt-starter-storybook/deploys) **Storybook on Netlify**: [my-nuxt-starter-storybook.netlify.app](https://my-nuxt-starter-storybook.netlify.app)
+- [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--65f5b391c034b704dd98a557.chromatic.com) **Storybook on Chromatic**: [main--65f5b391c034b704dd98a557.chromatic.com](https://main--65f5b391c034b704dd98a557.chromatic.com)
 
-1. Nuxt 3
-2. TailwindCSS (@nuxtjs/tailwindcss)
-3. VueUse (@vueuse/nuxt)
-4. Storybook 8
-5. Lodash (nuxt-lodash)
-6. HeadlessUI (nuxt-headlessui)
-7. FormKit (@formkit/nuxt)
-8. Auto imported svg icons (vite + unplugin-icons)
-9. Internationalization (@nuxtjs/i18n)
-10. Fonts (@nuxt/fonts)
+## ✨ Features
 
-## To be added
+1. ⚡ **Nuxt 3**
+2. 🎨 **TailwindCSS** (@nuxtjs/tailwindcss)
+3. 🛠️ **VueUse** (@vueuse/nuxt)
+4. 📚 **Storybook 8**
+5. 📦 **Lodash** (nuxt-lodash)
+6. 🧩 **HeadlessUI** (nuxt-headlessui)
+7. 📑 **FormKit** (@formkit/nuxt)
+8. 🖼️ **Auto imported SVG icons** (vite + unplugin-icons)
+9. 🌐 **Internationalization** (@nuxtjs/i18n)
+10. ✒️ **Fonts** (@nuxt/fonts)
 
-- Testing
-- Linting (Stylelint, ESLint)
-- Prettier
+## 📝 To be added
 
-## Setup
+- 🧪 **Testing**
+- 🧹 **Linting** (Stylelint, ESLint)
+- 💅 **Prettier**
+
+## ⚙️ Setup
 
 Make sure to install the dependencies:
 
@@ -33,56 +35,46 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
-## Site
+## 🌐 Site
 
-### Start development
+### 🛠️ Start development
 
 (Served on http://localhost:3000)
 
-```bash
-pnpm dev
-```
+    pnpm dev
 
-### Build production
+### 📦 Build production
 
-```bash
-pnpm build
-```
+    pnpm build
 
-## Storybook
+## 📖 Storybook
 
-### Start development
+### 🛠️ Start development
 
 (Served on http://localhost:6006)
 
-```bash
-pnpm storybook
-```
+    pnpm storybook
 
-### Build production
+### 📦 Build production
 
-```bash
-pnpm build-storybook
-```
+    pnpm build-storybook
 
-### Serve locally the production
+### 🌍 Serve locally the production
 
-```bash
-pnpm serve-storybook
-```
+    pnpm serve-storybook
 
-## Deploy on Netlify
+## 🚀 Deploy on Netlify
 
-### Site
+### 🌐 Site
 
-Build command: `pnpm build
-`
-Publish directory: `dist
-`
+- **Build command**: `pnpm build`
+- **Publish directory**: `dist`
 
-### Storybook
+### 📖 Storybook
 
-Build command: `pnpm build && pnpm build-storybook
-`
-Publish directory: `storybook-static
-`
+- **Build command**: `pnpm build && pnpm build-storybook`
+- **Publish directory**: `storybook-static`
+
+---
+
+Feel free to contribute and make this project even more awesome! 🎉
