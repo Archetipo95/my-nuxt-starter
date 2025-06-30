@@ -1,4 +1,4 @@
-# 🚀 Nuxt Starter
+# 🚀 Martin'sNuxt Starter
 
 > A modern, full-featured Nuxt 4 starter template with TypeScript, Tailwind CSS, and everything you need to build amazing web applications.
 
@@ -140,7 +140,6 @@ bun test:e2e
 ### 🔄 In Progress
 
 - [ ] **🌍 Internationalization (i18n)** - Multi-language support
-- [ ] **📋 FormKit** - Advanced form handling
 - [ ] **🎨 Custom Icon Library** - Project-specific icons
 - [ ] **📊 Coverage GitHub Action** - Automated coverage reports
 
@@ -150,7 +149,6 @@ bun test:e2e
 - [ ] **🗂️ Pinia** - State management
 - [ ] **🎨 Chromatic** - Visual testing
 - [ ] **🚦 Lighthouse** - Performance monitoring
-- [ ] **📘 Node Types** - Additional type definitions
 
 ---
 
