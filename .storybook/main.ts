@@ -10,6 +10,7 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
+    "@vueless/storybook-dark-mode",
     // TODO: enable tests
     // "@storybook/addon-vitest",
   ],
@@ -17,6 +18,7 @@ const config: StorybookConfig = {
     name: "@storybook-vue/nuxt",
     options: {},
   },
+  staticDirs: ["../public"],
   async viteFinal(config) {
     return mergeConfig(config, {
       resolve: {
