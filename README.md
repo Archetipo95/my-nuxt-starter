@@ -7,7 +7,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![Bun](https://img.shields.io/badge/Bun-1.2.13-000000?logo=bun)](https://bun.sh/)
 
-[🌐 **Live Demo**](https://my-nuxt-experiments.netlify.app) • [📖 **Documentation**](#documentation) • [🚀 **Quick Start**](#quick-start)
+[🌐 **Live Demo**](https://martin-nuxt-starter.netlify.app) • [📖 **Documentation**](#documentation) • [🚀 **Quick Start**](#quick-start)
 
 ---
 
