@@ -1,7 +1,5 @@
-import tailwindcss from "@tailwindcss/vite"
-
 export default defineNuxtConfig({
-  compatibilityDate: "2025-05-15",
+  compatibilityDate: "2025-07-01",
 
   future: {
     compatibilityVersion: 4,
@@ -14,12 +12,11 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/ui",
     "@vueuse/nuxt",
+    "@nuxtjs/seo",
     "@nuxtjs/storybook",
     "@nuxt/test-utils/module",
     "nuxt-security",
   ],
-
-  css: ["~/assets/css/main.css"],
 
   image: {
     // Options
@@ -31,16 +28,20 @@ export default defineNuxtConfig({
     },
   },
 
-  storybook: {
-    // Turned off for now, as it's not working with Nuxt
-    // You can launch it manually with `bun storybook`
+  css: ["~/assets/css/main.css"],
+
+  site: {
+    url: "https://martin-nuxt-starter.netlify.app",
+  },
+
+  ogImage: {
     enabled: false,
   },
 
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+  fonts: {
+    experimental: {
+      processCSSVariables: true, // Enable if using CSS variables for Tailwind CSS v4
+    },
   },
 
   typescript: {
