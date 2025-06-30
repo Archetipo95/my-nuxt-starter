@@ -47,7 +47,7 @@ export default withNuxt(antfu(
           kebabCase: true,
           camelCase: true,
         },
-        ignore: ["README.md", "FUNDING.yml"],
+        ignore: ["README.md", "FUNDING.yml", "LICENSE"],
       }],
       "object-curly-newline": ["error", {
         ObjectExpression: {
