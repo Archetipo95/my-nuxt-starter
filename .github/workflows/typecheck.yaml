@@ -1,0 +1,36 @@
+name: Typecheck
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 5
+
+    strategy:
+      fail-fast: true
+
+    env:
+      NODE_ENV: development
+
+    steps:
+      - name: 📥 Check out the repository code
+        uses: actions/checkout@v4
+
+      - name: 🥟 Set up Bun environment
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: ⬇️ Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: 🧪 Run typecheck
+        run: bun run typecheck

@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`atomsMessage.vue > check the output of our component in different given states > renders stateInvalid correctly 1`] = `
+"<div id="test-wrapper">
+  <div class="text-red-500">
+    <div class="heading">State message: invalid</div>
+  </div>
+</div>"
+`;
+
+exports[`atomsMessage.vue > check the output of our component in different given states > renders stateValid correctly 1`] = `
+"<div id="test-wrapper">
+  <div class="text-green-500">
+    <div class="heading">State message: valid</div>
+  </div>
+</div>"
+`;
