@@ -1,7 +1,5 @@
 import type { StorybookConfig } from "@storybook-vue/nuxt"
 
-import { mergeConfig } from "vite"
-
 const config: StorybookConfig = {
   stories: [
     "../app/components/**/*.stories.ts",
@@ -16,14 +14,5 @@ const config: StorybookConfig = {
     options: {},
   },
   staticDirs: ["../public"],
-  async viteFinal(config) {
-    return mergeConfig(config, {
-      resolve: {
-        alias: {
-          vue: "vue/dist/vue.esm-bundler.js",
-        },
-      },
-    })
-  },
 }
 export default config

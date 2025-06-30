@@ -1,3 +1,5 @@
+import checker from "vite-plugin-checker"
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-01",
 
@@ -46,5 +48,9 @@ export default defineNuxtConfig({
 
   typescript: {
     typeCheck: true,
+  },
+
+  vite: {
+    plugins: [checker({ vueTsc: true })],
   },
 })
