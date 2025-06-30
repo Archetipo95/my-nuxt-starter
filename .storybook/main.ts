@@ -1,6 +1,5 @@
 import type { StorybookConfig } from "@storybook-vue/nuxt"
 
-// import { join } from "node:path"
 import { mergeConfig } from "vite"
 
 const config: StorybookConfig = {
@@ -11,8 +10,6 @@ const config: StorybookConfig = {
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
     "@vueless/storybook-dark-mode",
-    // TODO: enable tests
-    // "@storybook/addon-vitest",
   ],
   framework: {
     name: "@storybook-vue/nuxt",
@@ -24,7 +21,6 @@ const config: StorybookConfig = {
       resolve: {
         alias: {
           vue: "vue/dist/vue.esm-bundler.js",
-          // "@root": join(__dirname, "../"),
         },
       },
     })
