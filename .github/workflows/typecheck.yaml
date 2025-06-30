@@ -1,4 +1,4 @@
-name: TypecheckAdd commentMore actions
+name: Typecheck
 
 on:
   push:
