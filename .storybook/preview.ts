@@ -1,40 +1,26 @@
-import '../assets/scss/main.scss'
-import { setup } from '@storybook/vue3'
-import { plugin, defaultConfig } from '@formkit/vue'
-import formkitConfig from '../formkit.config'
-import { createI18n } from 'vue-i18n'
-import en from '../locales/en.json'
+import type { Preview } from "@storybook-vue/nuxt"
 
-export const parameters = {
-  backgrounds: {
-    default: 'Light',
-    values: [
-      {
-        name: 'Figma Light',
-        value: '#E1DFDF',
+import { h, Suspense } from "vue"
+
+const preview: Preview = {
+  parameters: {
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/i,
       },
-      {
-        name: 'Light',
-        value: '#FFF',
-      },
-      {
-        name: 'Dark',
-        value: '#333233',
-      },
-    ],
+    },
   },
+  decorators: [
+    (story) => {
+      return {
+        setup() {
+          // Support top level await
+          return () => h(Suspense, {}, [h(story())])
+        },
+      }
+    },
+  ],
 }
 
-const i18n = createI18n({
-  legacy: false,
-  locale: 'en',
-  fallbackLocale: 'en',
-  messages: {
-    en,
-  },
-})
-
-setup((app) => {
-  app.use(i18n)
-  app.use(plugin, defaultConfig(formkitConfig()))
-})
+export default preview

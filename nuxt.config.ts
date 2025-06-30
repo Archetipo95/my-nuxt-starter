@@ -1,81 +1,49 @@
-import Components from 'unplugin-vue-components/vite'
-import { resolveIcons, mapIcons } from './utils/iconSetting'
+import tailwindcss from "@tailwindcss/vite"
 
 export default defineNuxtConfig({
-  app: {
-    head: {
-      title: "Martin's Nuxt Starter",
+  compatibilityDate: "2025-05-15",
+
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  devtools: { enabled: true },
+
+  modules: [
+    "@nuxt/image",
+    "@nuxt/eslint",
+    "@nuxt/ui",
+    "@vueuse/nuxt",
+    "@nuxtjs/storybook",
+    "@nuxt/test-utils/module",
+    "nuxt-security",
+  ],
+
+  css: ["~/assets/css/main.css"],
+
+  image: {
+    // Options
+  },
+
+  eslint: {
+    config: {
+      standalone: false,
     },
   },
 
-  modules: [
-    '@formkit/nuxt',
-    '@nuxtjs/tailwindcss',
-    '@vueuse/nuxt',
-    'nuxt-lodash',
-    'nuxt-headlessui',
-    '@nuxtjs/i18n',
-    '@nuxt/fonts',
-    '@nuxt/image',
-  ],
-
-  css: ['@/assets/scss/main.scss'],
-
-  tailwindcss: {
-    cssPath: '@/assets/scss/main.scss',
-    viewer: false,
-  },
-
-  /**
-   * Nuxt Lodash config
-   * @see https://nuxt.com/modules/lodash
-   */
-  lodash: {
-    prefix: '_',
-    upperAfterPrefix: false,
-  },
-
-  /**
-   * Nuxt Headless UI config
-   * @see https://nuxt.com/modules/headlessui
-   */
-  headlessui: {
-    prefix: 'Headless',
-  },
-
-  /**
-   * Formkit config
-   * @see https://formkit.com
-   */
-  formkit: {
-    autoImport: true,
-  },
-
-  /**
-   * VueUse config
-   * @see https://i18n.nuxtjs.org/
-   */
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
+  storybook: {
+    // Turned off for now, as it's not working with Nuxt
+    // You can launch it manually with `bun storybook`
+    enabled: false,
   },
 
   vite: {
     plugins: [
-      Components({
-        resolvers: [resolveIcons()],
-        dts: true,
-      }),
-      mapIcons(),
+      tailwindcss(),
     ],
   },
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  typescript: {
+    typeCheck: true,
   },
-
-  compatibilityDate: '2024-08-29',
 })
