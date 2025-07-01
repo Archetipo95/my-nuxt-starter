@@ -1,4 +1,4 @@
-# 🚀 Martin'sNuxt Starter
+# 🚀 Martin's Nuxt Starter
 
 > A modern, full-featured Nuxt 4 starter template with TypeScript, Tailwind CSS, and everything you need to build amazing web applications.
 
