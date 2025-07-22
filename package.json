@@ -45,7 +45,7 @@
     "@nuxt/eslint": "^1.7.0",
     "@nuxt/image": "^1.10.0",
     "@nuxt/test-utils": "^3.19.2",
-    "@nuxtjs/storybook": "^8.4.1",
+    "@nuxtjs/storybook": "8.4.2-29212946.04b4f98",
     "@playwright/test": "^1.54.1",
     "@storybook/addon-a11y": "9.0.5",
     "@storybook/addon-docs": "9.0.5",
