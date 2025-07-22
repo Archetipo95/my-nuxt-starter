@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@vueuse/nuxt",
     "@nuxtjs/seo",
+    "@nuxtjs/storybook",
     "@nuxt/test-utils/module",
     "nuxt-security",
   ],
