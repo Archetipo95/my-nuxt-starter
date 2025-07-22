@@ -1,11 +1,7 @@
 import checker from "vite-plugin-checker"
 
 export default defineNuxtConfig({
-  compatibilityDate: "2025-07-01",
-
-  future: {
-    compatibilityVersion: 4,
-  },
+  compatibilityDate: "2025-07-22",
 
   devtools: { enabled: true },
 
@@ -15,7 +11,6 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@vueuse/nuxt",
     "@nuxtjs/seo",
-    "@nuxtjs/storybook",
     "@nuxt/test-utils/module",
     "nuxt-security",
   ],
