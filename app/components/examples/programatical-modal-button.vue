@@ -2,6 +2,7 @@
 // Note Lazy import is used to load the component only when needed
 import { LazyExamplesProgramaticalModal } from "#components"
 
+const { t } = useI18n()
 const count = ref(0)
 
 const toast = useToast()
@@ -22,7 +23,7 @@ async function open() {
     count.value++
 
     toast.add({
-      title: `Success, should increment: ${shouldIncrement}`,
+      title: `${t("modal.successMessage")} ${shouldIncrement}`,
       color: "success",
       id: "modal-success",
     })
@@ -35,7 +36,7 @@ async function open() {
   }
 
   toast.add({
-    title: `Dismissed, should increment: ${shouldIncrement}`,
+    title: `${t("modal.dismissedMessage")} ${shouldIncrement}`,
     color: "error",
     id: "modal-dismiss",
   })
@@ -44,7 +45,7 @@ async function open() {
 
 <template>
   <UButton
-    label="Open programatical modal"
+    :label="$t('modal.openProgrammatical')"
     color="neutral"
     variant="subtle"
     @click="open"

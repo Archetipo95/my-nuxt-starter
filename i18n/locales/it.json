@@ -1,4 +1,32 @@
 {
   "welcome": "Benvenuto",
-  "mousePosition": "Posizione mouse"
+  "mousePosition": "Posizione mouse",
+  "page": {
+    "title": "Template starter"
+  },
+  "navigation": {
+    "home": "Home"
+  },
+  "greeting": {
+    "helloWorld": "Ciao mondo"
+  },
+  "vueuse": {
+    "mousePos": "Posizione mouse VueUse:"
+  },
+  "modal": {
+    "open": "Apri modale",
+    "openProgrammatical": "Apri modale programmatica",
+    "openedProgrammatically": "Questa modale è stata aperta programmaticamente",
+    "times": "volte",
+    "dismiss": "Chiudi",
+    "success": "Successo",
+    "successMessage": "Successo, dovrebbe incrementare:",
+    "dismissedMessage": "Chiuso, dovrebbe incrementare:"
+  },
+  "slideover": {
+    "open": "Apri Slideover"
+  },
+  "storybook": {
+    "welcomeNuxt": "Benvenuto Nuxt in Storybook"
+  }
 }

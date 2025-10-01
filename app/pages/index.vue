@@ -4,14 +4,16 @@ const {
   y,
 } = useMouse()
 
+const { t } = useI18n()
+
 useHead({
-  title: "Starter template",
+  title: t("page.title"),
 })
 </script>
 
 <template>
   <UContainer class="flex items-center gap-4">
-    <h1>{{ $t('welcome') }}</h1>
+    <h1>{{ $t('greeting.helloWorld') }}</h1>
 
     <ExamplesModal />
 
@@ -19,6 +21,6 @@ useHead({
 
     <ExamplesSlideover />
 
-    <div>{{ $t('mousePosition') }}: {{ x }}, {{ y }}</div>
+    <div>{{ $t('vueuse.mousePos') }} {{ x }}, {{ y }}</div>
   </UContainer>
 </template>

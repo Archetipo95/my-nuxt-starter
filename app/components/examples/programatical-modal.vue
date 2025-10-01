@@ -9,16 +9,16 @@ const emit = defineEmits<{ close: [boolean] }>()
 <template>
   <UModal
     :close="{ onClick: () => emit('close', false) }"
-    :title="`This modal was opened programmatically ${count} times`"
+    :title="`${$t('modal.openedProgrammatically')} ${count} ${$t('modal.times')}`"
   >
     <template #footer>
       <div class="flex gap-2">
         <UButton
           color="neutral"
-          label="Dismiss"
+          :label="$t('modal.dismiss')"
           @click="emit('close', false)"
         />
-        <UButton label="Success" @click="emit('close', true)" />
+        <UButton :label="$t('modal.success')" @click="emit('close', true)" />
       </div>
     </template>
   </UModal>

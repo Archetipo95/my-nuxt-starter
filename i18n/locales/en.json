@@ -1,4 +1,32 @@
 {
   "welcome": "Welcome",
-  "mousePosition": "Mouse position"
+  "mousePosition": "Mouse position",
+  "page": {
+    "title": "Starter template"
+  },
+  "navigation": {
+    "home": "Home"
+  },
+  "greeting": {
+    "helloWorld": "Hello world"
+  },
+  "vueuse": {
+    "mousePos": "VueUse mouse pos:"
+  },
+  "modal": {
+    "open": "Open modal",
+    "openProgrammatical": "Open programmatical modal",
+    "openedProgrammatically": "This modal was opened programmatically",
+    "times": "times",
+    "dismiss": "Dismiss",
+    "success": "Success",
+    "successMessage": "Success, should increment:",
+    "dismissedMessage": "Dismissed, should increment:"
+  },
+  "slideover": {
+    "open": "Open Slideover"
+  },
+  "storybook": {
+    "welcomeNuxt": "Welcome Nuxt to Storybook"
+  }
 }

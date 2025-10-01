@@ -10,7 +10,7 @@ defineShortcuts({
 <template>
   <UModal v-model:open="open">
     <UButton
-      label="Open modal"
+      :label="$t('modal.open')"
       color="neutral"
       variant="subtle"
     />

@@ -9,7 +9,7 @@ defineShortcuts({
 <template>
   <USlideover v-model:open="open">
     <UButton
-      label="Open Slideover"
+      :label="$t('slideover.open')"
       color="neutral"
       variant="subtle"
     />
