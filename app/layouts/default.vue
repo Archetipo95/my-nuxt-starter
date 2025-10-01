@@ -5,7 +5,10 @@
         :items="[{ label: 'Home', icon: 'i-lucide-house', class: 'text-default' }]"
       />
 
-      <ColorModeButton />
+      <div class="flex items-center gap-4">
+        <ExamplesSelectLanguage />
+        <ColorModeButton />
+      </div>
     </UContainer>
     <slot />
   </div>

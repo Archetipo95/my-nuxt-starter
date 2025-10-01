@@ -14,7 +14,25 @@ export default defineNuxtConfig({
     "@nuxtjs/storybook",
     "@nuxt/test-utils/module",
     "nuxt-security",
+    "@nuxtjs/i18n",
   ],
+
+  i18n: {
+    defaultLocale: "en",
+    strategy: "no_prefix",
+    locales: [
+      {
+        code: "en",
+        name: "English",
+        file: "en.json",
+      },
+      {
+        code: "it",
+        name: "Italiano",
+        file: "it.json",
+      },
+    ],
+  },
 
   image: {
     // Options
