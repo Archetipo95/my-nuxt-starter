@@ -23,7 +23,7 @@
 
 ### 🧩 **UI & Components**
 
-- **🎨 Nuxt UI v3** - Beautiful, accessible components
+- **🎨 Nuxt UI v4** - Beautiful, accessible components
 - **🌙 Color Mode** - Dark/light theme support
 - **🖼️ Icons** - Comprehensive icon system (@nuxt/icon)
 - **🔤 Fonts** - Web font optimization (@nuxt/fonts)
