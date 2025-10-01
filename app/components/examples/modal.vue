@@ -8,7 +8,11 @@ defineShortcuts({
 </script>
 
 <template>
-  <UModal v-model:open="open">
+  <UModal
+    v-model:open="open"
+    title="Modal title"
+    description="This is a modal description"
+  >
     <UButton
       :label="$t('modal.open')"
       color="neutral"

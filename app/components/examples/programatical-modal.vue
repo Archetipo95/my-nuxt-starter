@@ -10,6 +10,7 @@ const emit = defineEmits<{ close: [boolean] }>()
   <UModal
     :close="{ onClick: () => emit('close', false) }"
     :title="`${$t('modal.openedProgrammatically')} ${count} ${$t('modal.times')}`"
+    :description="$t('modal.openedProgrammatically')"
   >
     <template #footer>
       <div class="flex gap-2">

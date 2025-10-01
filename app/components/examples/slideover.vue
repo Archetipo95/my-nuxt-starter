@@ -7,7 +7,11 @@ defineShortcuts({
 </script>
 
 <template>
-  <USlideover v-model:open="open">
+  <USlideover
+    v-model:open="open"
+    title="Slideover title"
+    description="This is a slideover description"
+  >
     <UButton
       :label="$t('slideover.open')"
       color="neutral"
