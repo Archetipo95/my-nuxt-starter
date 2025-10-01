@@ -20,6 +20,7 @@
 - **🚀 Bun** - Ultra fast package manager and runtime
 - **🎨 Tailwind CSS v4** - Modern utility-first CSS framework
 - **⚡ Vite** - Lightning fast build tool
+- **🌍 Internationalization** - i18n support with @nuxtjs/i18n
 
 ### 🧩 **UI & Components**
 
@@ -139,7 +140,6 @@ bun test:e2e
 
 ### 🔄 In Progress
 
-- [ ] **🌍 Internationalization (i18n)** - Multi-language support
 - [ ] **🎨 Custom Icon Library** - Project-specific icons
 - [ ] **📊 Coverage GitHub Action** - Automated coverage reports
 
