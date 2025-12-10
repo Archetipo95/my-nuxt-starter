@@ -6,7 +6,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![pnpm](https://img.shields.io/badge/pnpm-10.x-F69220?logo=pnpm)](https://pnpm.io/)
-[![CI](https://github.com/archetipo95/my-nuxt-starter/actions/workflows/code-integrity-ci.yaml/badge.svg)](https://github.com/archetipo95/my-nuxt-starter/actions/workflows/code-integrity-ci.yaml)
+[![Lint and Typecheck](https://github.com/Archetipo95/my-nuxt-starter/actions/workflows/code-quality.yaml/badge.svg)](https://github.com/Archetipo95/my-nuxt-starter/actions/workflows/code-quality.yaml)
+[![Unit Tests](https://github.com/Archetipo95/my-nuxt-starter/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/Archetipo95/my-nuxt-starter/actions/workflows/unit-tests.yml)
 
 [🌐 **Live Demo**](https://martin-nuxt-starter.netlify.app) • [📖 **Documentation**](#documentation) • [🚀 **Quick Start**](#quick-start)
 
