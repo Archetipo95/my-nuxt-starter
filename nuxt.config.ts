@@ -1,7 +1,7 @@
 import checker from "vite-plugin-checker"
 
 export default defineNuxtConfig({
-  compatibilityDate: "2025-07-22",
+  compatibilityDate: "2025-12-12",
 
   devtools: { enabled: true },
 
@@ -15,7 +15,18 @@ export default defineNuxtConfig({
     "@nuxt/test-utils/module",
     "nuxt-security",
     "@nuxtjs/i18n",
+    "@pinia/colada-nuxt",
+    "@pinia/nuxt",
   ],
+
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        "img-src": ["'self'", "data:", "https://img.shields.io"],
+      },
+    },
+    sri: false,
+  },
 
   i18n: {
     defaultLocale: "en",
@@ -63,7 +74,8 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-
+  // Used for this error:
+  // Pre-transform error: Failed to resolve import "/_nuxt/@vite-plugin-checker-runtime"
   vite: {
     plugins: [checker({ vueTsc: true })],
   },

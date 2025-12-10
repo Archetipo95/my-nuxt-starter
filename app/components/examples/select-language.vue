@@ -23,9 +23,9 @@ watch(selectedLocale, (newLocale) => {
   <div class="flex items-center gap-2">
     <USelect
       v-model="selectedLocale"
+      class="w-32"
       :items="items"
       size="sm"
-      class="w-32"
     />
   </div>
 </template>

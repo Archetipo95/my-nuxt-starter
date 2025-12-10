@@ -13,7 +13,7 @@ defineProps<ComponentTestProps>()
       'text-red-500': state === 'invalid',
     }"
   >
-    <div class="heading">
+    <div>
       <slot name="title" />
     </div>
   </div>

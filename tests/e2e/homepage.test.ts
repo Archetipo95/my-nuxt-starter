@@ -1,7 +1,7 @@
 import { expect, test } from "@nuxt/test-utils/playwright"
 
 test.beforeEach(async ({ goto }) => {
-  await goto("/", { waitUntil: "hydration" })
+  await goto("/", { waitUntil: "domcontentloaded" })
 })
 
 test.describe("Home Page", () => {

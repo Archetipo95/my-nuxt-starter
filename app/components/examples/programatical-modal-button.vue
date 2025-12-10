@@ -45,8 +45,8 @@ async function open() {
 
 <template>
   <UButton
-    :label="$t('modal.openProgrammatical')"
     color="neutral"
+    :label="$t('modal.openProgrammatical')"
     variant="subtle"
     @click="open"
   />

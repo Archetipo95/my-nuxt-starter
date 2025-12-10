@@ -9,17 +9,17 @@ defineShortcuts({
 <template>
   <USlideover
     v-model:open="open"
-    title="Slideover title"
     description="This is a slideover description"
+    title="Slideover title"
   >
     <UButton
-      :label="$t('slideover.open')"
       color="neutral"
+      :label="$t('slideover.open')"
       variant="subtle"
     />
 
     <template #content>
-      <Placeholder class="h-full m-4" />
+      <Placeholder class="m-4 h-full" />
     </template>
   </USlideover>
 </template>
