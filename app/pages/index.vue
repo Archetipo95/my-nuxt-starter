@@ -13,7 +13,9 @@ useHead({
 
 <template>
   <UContainer class="flex items-center gap-4">
-    <h1>{{ $t('greeting.helloWorld') }}</h1>
+    <h1>
+      {{ $t('greeting.helloWorld') }}
+    </h1>
 
     <ExamplesModal />
 
@@ -21,6 +23,8 @@ useHead({
 
     <ExamplesSlideover />
 
-    <div>{{ $t('vueuse.mousePos') }} {{ x }}, {{ y }}</div>
+    <div>
+      {{ $t('vueuse.mousePos') }} {{ x }}, {{ y }}
+    </div>
   </UContainer>
 </template>

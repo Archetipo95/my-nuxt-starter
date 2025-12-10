@@ -13,7 +13,7 @@ const messageInvalid: ComponentTestProps = {
   state: "invalid",
 }
 
-describe("atomsMessage.vue", () => {
+describe("component-test.vue", () => {
   describe("check the output of our component in different given states", async () => {
     it.each([
       ["stateValid", messageValid],

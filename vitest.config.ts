@@ -7,7 +7,7 @@ export default defineVitestConfig({
     environment: "nuxt",
     include: ["**/components/**/*.test.ts"],
     coverage: {
-      provider: "istanbul",
+      provider: "v8",
       include: ["**/components/**/*.vue"],
     },
   },
