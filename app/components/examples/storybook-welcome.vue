@@ -1,4 +1,6 @@
 <template>
-  <h1>{{ $t('storybook.welcomeNuxt') }}</h1>
+  <h1>
+    {{ $t('storybook.welcomeNuxt') }}
+  </h1>
   <NuxtWelcome />
 </template>
