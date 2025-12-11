@@ -30,7 +30,7 @@ By participating in this project, you are expected to uphold our standards of re
 Before you begin, ensure you have the following installed:
 
 - **Node.js** (version specified in `.nvmrc`) - We recommend using [NVM](https://github.com/nvm-sh/nvm) for version management
-- **pnpm** (version 10.24.0 or higher) - Install globally: `npm install -g pnpm`
+- **pnpm** (version 10.24.0 or higher) - See [pnpm installation guide](https://pnpm.io/installation)
 
 ### Fork and Clone
 
@@ -317,7 +317,6 @@ my-nuxt-starter/
 │   └── 📁 pages/              # Page components (auto-routing)
 ├── 📁 tests/                  # Test files
 │   └── 📁 e2e/                # End-to-end tests
-├── 📁 server/                 # Server-side code and API routes
 ├── 📁 public/                 # Public static files
 ├── 📁 i18n/                   # Internationalization files
 ├── 📁 .storybook/             # Storybook configuration
@@ -328,7 +327,7 @@ my-nuxt-starter/
 
 - **Nuxt 4** - The Vue.js framework
 - **TypeScript** - Type safety
-- **Pinia Colada** - Async state management & data fetching
+- **🍹 Pinia Colada** - Async state management & data fetching
 - **Tailwind CSS v4** - Utility-first CSS
 - **Nuxt UI v4** - Component library
 - **Vite** - Build tool
